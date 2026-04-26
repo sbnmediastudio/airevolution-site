@@ -31,6 +31,15 @@
     <itunes:type>episodic</itunes:type>
 
     <!-- Episodes will be inserted here by the automation pipeline -->
+    <item>
+      <title>This Week in Claude Code Skills — 8 New Community Releases (Week 17)</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/community-skills-week-17-2026-04-27.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/community-skills-week-17-2026-04-27.html</guid>
+      <pubDate>Sun, 26 Apr 2026 22:28:58 +0000</pubDate>
+      <description>The most-trending Claude Code skills released or updated this week, ranked by community signal. dify leads.</description>
+      <category>Agents</category>
+    </item>
+
 
   </channel>
 </rss>
