@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://airevolution.sbnmediastudio.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>AI Revolution</title>
+    <link>https://airevolution.sbnmediastudio.com/</link>
+    <description>Weekly AI intelligence: frontier models, agents, infrastructure, regulation, and enterprise adoption. By SBN Media Studio.</description>
+    <language>en-us</language>
+    <copyright>© 2026 SBN Media Studio</copyright>
+    <managingEditor>sbn.mediastudio@gmail.com (SBN Media Studio)</managingEditor>
+    <webMaster>sbn.mediastudio@gmail.com (SBN Media Studio)</webMaster>
+    <lastBuildDate>Sun, 26 Apr 2026 12:00:00 +0000</lastBuildDate>
+
+    <!-- iTunes / Spotify required tags -->
+    <itunes:author>SBN Media Studio</itunes:author>
+    <itunes:summary>Weekly AI intelligence: frontier models (GPT, Claude, Gemini), AI agents, MCP protocol, AI infrastructure, regulation, and enterprise adoption. By SBN Media Studio.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>SBN Media Studio</itunes:name>
+      <itunes:email>sbn.mediastudio@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:category text="News">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:image href="https://airevolution.sbnmediastudio.com/img/podcast-logo.png"/>
+    <itunes:type>episodic</itunes:type>
+
+    <!-- Episodes will be inserted here by the automation pipeline -->
+
+  </channel>
+</rss>

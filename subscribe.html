@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6541023899724889" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe — Free & Premium Plans | The Tech Room</title>
+  <meta name="description" content="Subscribe to The Tech Room for expert semiconductor, AI, and gaming analysis. Free weekly newsletter or Premium ($5/mo) with ad-free browsing, exclusive articles, and market insights.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://thetechroom.sbnmediastudio.com/subscribe.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Subscribe — Free & Premium Plans | The Tech Room">
+  <meta property="og:description" content="Expert semiconductor, AI, and gaming analysis delivered to your inbox. Free or Premium ($5/mo) with ad-free browsing and exclusive content.">
+  <meta property="og:url" content="https://thetechroom.sbnmediastudio.com/subscribe.html">
+  <meta property="og:site_name" content="The Tech Room">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .pricing-section { padding: 4rem 0; }
+    .pricing-header { text-align: center; margin-bottom: 3rem; }
+    .pricing-header .label { color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.85rem; }
+    .pricing-header p { color: var(--text-secondary); max-width: 600px; margin: 1rem auto 0; }
+
+    .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 800px; margin: 0 auto; }
+    @media (max-width: 700px) { .pricing-grid { grid-template-columns: 1fr; } }
+
+    .pricing-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      position: relative;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .pricing-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+    .pricing-card--premium {
+      border-color: var(--accent);
+      background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(139,92,246,0.08));
+    }
+    .pricing-card__badge {
+      position: absolute; top: -12px; right: 20px;
+      background: var(--accent); color: #fff;
+      padding: 4px 14px; border-radius: 20px;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+    }
+    .pricing-card__tier { font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; }
+    .pricing-card__price { font-size: 3rem; font-weight: 800; color: var(--text-primary); margin: 0.5rem 0; }
+    .pricing-card__price span { font-size: 1rem; font-weight: 400; color: var(--text-muted); }
+    .pricing-card__desc { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.6; }
+
+    .pricing-features { list-style: none; padding: 0; margin: 0 0 2rem; }
+    .pricing-features li {
+      padding: 0.6rem 0; color: var(--text-secondary); font-size: 0.92rem;
+      display: flex; align-items: flex-start; gap: 0.75rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .pricing-features li:last-child { border-bottom: none; }
+    .pricing-features .check { color: #10b981; font-weight: 700; flex-shrink: 0; font-size: 1.1rem; }
+    .pricing-features .star { color: #f59e0b; font-weight: 700; flex-shrink: 0; font-size: 1.1rem; }
+
+    .pricing-card__form { display: flex; flex-direction: column; gap: 0.75rem; }
+    .pricing-card__form input {
+      padding: 0.85rem 1rem; border-radius: var(--radius);
+      border: 1px solid var(--border); background: var(--bg-primary);
+      color: var(--text-primary); font-size: 0.95rem; outline: none;
+    }
+    .pricing-card__form input:focus { border-color: var(--accent); }
+    .pricing-card__form button {
+      padding: 0.85rem 1.5rem; border-radius: var(--radius);
+      font-size: 1rem; font-weight: 600; cursor: pointer; border: none;
+      transition: all 0.2s;
+    }
+    .btn--free { background: var(--bg-primary); color: var(--text-primary); border: 1px solid var(--border) !important; }
+    .btn--free:hover { background: var(--border); }
+    .btn--premium-cta { background: var(--accent); color: #fff; }
+    .btn--premium-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    .pricing-guarantee { text-align: center; margin-top: 2rem; color: var(--text-muted); font-size: 0.85rem; }
+
+    /* Comparison table */
+    .comparison-section { padding: 3rem 0; }
+    .comparison-table { width: 100%; max-width: 800px; margin: 2rem auto; border-collapse: collapse; }
+    .comparison-table th, .comparison-table td {
+      padding: 1rem 1.25rem; text-align: left; border-bottom: 1px solid var(--border);
+      font-size: 0.92rem;
+    }
+    .comparison-table th { color: var(--text-muted); font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em; }
+    .comparison-table td:nth-child(2), .comparison-table td:nth-child(3) { text-align: center; }
+    .comparison-table th:nth-child(2), .comparison-table th:nth-child(3) { text-align: center; }
+    .comparison-table .yes { color: #10b981; font-weight: 700; }
+    .comparison-table .no { color: var(--text-muted); }
+    @media (max-width: 600px) { .comparison-table { font-size: 0.85rem; } .comparison-table th, .comparison-table td { padding: 0.75rem; } }
+
+    /* FAQ */
+    .faq-section { padding: 3rem 0; }
+    .faq-grid { max-width: 700px; margin: 2rem auto; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item__q { color: var(--text-primary); font-weight: 600; font-size: 1rem; margin-bottom: 0.5rem; }
+    .faq-item__a { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; }
+
+    /* Status messages */
+    .sub-status { padding: 1rem 1.5rem; border-radius: var(--radius); margin-top: 1rem; font-size: 0.9rem; display: none; }
+    .sub-status--success { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); display: block; }
+    .sub-status--error { background: rgba(244,63,94,0.15); color: #f43f5e; border: 1px solid rgba(244,63,94,0.3); display: block; }
+    .sub-status--info { background: rgba(99,102,241,0.15); color: #a78bfa; border: 1px solid rgba(99,102,241,0.3); display: block; }
+
+    /* Subscriber dashboard (shown when logged in) */
+    .dashboard-card {
+      background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 16px;
+      padding: 2rem; max-width: 600px; margin: 2rem auto; display: none;
+    }
+    .dashboard-card.active { display: block; }
+    .dashboard-card__tier-badge {
+      display: inline-block; padding: 4px 12px; border-radius: 20px;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+    }
+    .badge--free { background: rgba(255,255,255,0.1); color: var(--text-muted); }
+    .badge--premium { background: rgba(139,92,246,0.2); color: #a78bfa; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          <img src="img/sbn-logo.png" alt="SBN Media Studio" style="height: 28px; width: auto; border-radius: 4px; margin-right: 0.5rem;">
+          <span>The Tech Room</span>
+        </a>
+        <div class="nav__links">
+          <a href="index.html" class="nav__link">Home</a>
+          <a href="semiconductors.html" class="nav__link">Semiconductors</a>
+          <a href="ai.html" class="nav__link">AI</a>
+          <a href="gaming.html" class="nav__link">Gaming</a>
+          <a href="podcast.html" class="nav__link">Podcast</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main style="padding-top: 80px;">
+
+    <!-- Pricing Hero -->
+    <section class="pricing-section">
+      <div class="container">
+        <div class="pricing-header fade-up">
+          <span class="label">Subscribe</span>
+          <h1 class="heading-lg">Stay ahead of the curve.</h1>
+          <p>Expert analysis on semiconductors, AI, and gaming delivered to your inbox. Choose the plan that fits you.</p>
+        </div>
+
+        <!-- Subscriber Dashboard (hidden by default, shown when subscriber is logged in) -->
+        <div class="dashboard-card" id="subscriber-dashboard">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+            <div>
+              <h3 style="color: var(--text-primary); margin: 0;">Your Subscription</h3>
+              <p style="color: var(--text-muted); margin: 0.25rem 0 0; font-size: 0.9rem;" id="dash-email"></p>
+            </div>
+            <span class="dashboard-card__tier-badge" id="dash-tier-badge">Free</span>
+          </div>
+          <div id="dash-details" style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.8;"></div>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;">
+            <button class="btn btn--primary" id="dash-upgrade-btn" style="display: none;">Upgrade to Premium</button>
+            <button class="btn btn--ghost" id="dash-manage-btn" style="display: none;">Manage Subscription</button>
+            <button class="btn btn--ghost" id="dash-logout-btn">Sign Out</button>
+          </div>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing-grid fade-up" id="pricing-cards">
+
+          <!-- FREE TIER -->
+          <div class="pricing-card">
+            <p class="pricing-card__tier">Free</p>
+            <p class="pricing-card__price">$0 <span>/month</span></p>
+            <p class="pricing-card__desc">Weekly newsletter with the top stories across semiconductors, AI, and gaming.</p>
+            <ul class="pricing-features">
+              <li><span class="check">&#10003;</span> Weekly newsletter every Monday</li>
+              <li><span class="check">&#10003;</span> Access to all public articles</li>
+              <li><span class="check">&#10003;</span> Breaking news alerts</li>
+              <li><span class="check">&#10003;</span> Podcast episode notifications</li>
+              <li><span class="check">&#10003;</span> Unsubscribe anytime</li>
+            </ul>
+            <form class="pricing-card__form" id="free-subscribe-form">
+              <input type="email" placeholder="your@email.com" required aria-label="Email address">
+              <button type="submit" class="btn--free">Subscribe Free</button>
+            </form>
+            <div class="sub-status" id="free-status"></div>
+          </div>
+
+          <!-- PREMIUM TIER -->
+          <div class="pricing-card pricing-card--premium">
+            <span class="pricing-card__badge">Most Popular</span>
+            <p class="pricing-card__tier">Premium</p>
+            <p class="pricing-card__price">$5 <span>/month</span></p>
+            <p class="pricing-card__desc">Everything in Free, plus exclusive deep analysis, ad-free browsing, and market insights.</p>
+            <ul class="pricing-features">
+              <li><span class="star">&#9733;</span> Everything in Free</li>
+              <li><span class="star">&#9733;</span> <strong>Ad-free browsing</strong> across the entire site</li>
+              <li><span class="star">&#9733;</span> <strong>Exclusive deep analysis</strong> articles (Terafab, Space Data Centers, etc.)</li>
+              <li><span class="star">&#9733;</span> <strong>Early access</strong> to articles 24-48 hours before public</li>
+              <li><span class="star">&#9733;</span> <strong>Premium weekly digest</strong> with stock picks and market data</li>
+              <li><span class="star">&#9733;</span> <strong>Podcast bonus content</strong> and extended episodes</li>
+              <li><span class="star">&#9733;</span> Priority support</li>
+            </ul>
+            <form class="pricing-card__form" id="premium-subscribe-form">
+              <input type="email" placeholder="your@email.com" required aria-label="Email address">
+              <button type="submit" class="btn--premium-cta">Start Premium — $5/mo</button>
+            </form>
+            <div class="sub-status" id="premium-status"></div>
+            <p style="color: var(--text-muted); font-size: 0.8rem; margin-top: 0.75rem; text-align: center;">Cancel anytime. Billed monthly via Stripe.</p>
+          </div>
+        </div>
+
+        <p class="pricing-guarantee fade-up">No spam. No fluff. Just the tech news that matters. 30-day money-back guarantee on Premium.</p>
+      </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison-section">
+      <div class="container">
+        <div style="text-align: center;" class="fade-up">
+          <span class="label" style="color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.85rem;">Compare Plans</span>
+          <h2 class="heading-lg" style="margin-top: 0.5rem;">What you get</h2>
+        </div>
+        <table class="comparison-table fade-up">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Free</th>
+              <th>Premium</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Weekly newsletter</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>All public articles</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Breaking news alerts</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Podcast notifications</td><td class="yes">&#10003;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Ad-free browsing</td><td class="no">&#10007;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Exclusive deep analysis</td><td class="no">&#10007;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Early access (24-48h)</td><td class="no">&#10007;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Premium market digest</td><td class="no">&#10007;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Podcast bonus content</td><td class="no">&#10007;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Priority support</td><td class="no">&#10007;</td><td class="yes">&#10003;</td></tr>
+            <tr><td>Ads displayed</td><td>Standard ads</td><td class="yes" style="color: #10b981;">No ads</td></tr>
+            <tr><td style="font-weight: 600;">Price</td><td style="font-weight: 600;">$0/mo</td><td style="font-weight: 600; color: var(--accent);">$5/mo</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+      <div class="container">
+        <div style="text-align: center;" class="fade-up">
+          <span class="label" style="color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.85rem;">FAQ</span>
+          <h2 class="heading-lg" style="margin-top: 0.5rem;">Common questions</h2>
+        </div>
+        <div class="faq-grid fade-up">
+          <div class="faq-item">
+            <p class="faq-item__q">What do I get with the free plan?</p>
+            <p class="faq-item__a">A weekly newsletter every Monday with the top stories from semiconductors, AI, and gaming. Plus full access to all public articles on the site and breaking news alerts.</p>
+          </div>
+          <div class="faq-item">
+            <p class="faq-item__q">What's included in Premium?</p>
+            <p class="faq-item__a">Everything in Free, plus: ad-free browsing across the entire site, exclusive deep analysis articles with market data and stock analysis, early access to articles 24-48 hours before public release, a premium weekly digest with industry insights, and bonus podcast content.</p>
+          </div>
+          <div class="faq-item">
+            <p class="faq-item__q">Can I cancel Premium anytime?</p>
+            <p class="faq-item__a">Yes. Cancel anytime from your subscriber dashboard or Stripe billing portal. You'll keep Premium access until the end of your billing period. We also offer a 30-day money-back guarantee.</p>
+          </div>
+          <div class="faq-item">
+            <p class="faq-item__q">How do I get ad-free browsing?</p>
+            <p class="faq-item__a">Subscribe to Premium and sign in with your email. All ads across the site will be automatically hidden for your browsing session. No extensions or browser changes needed.</p>
+          </div>
+          <div class="faq-item">
+            <p class="faq-item__q">What payment methods are accepted?</p>
+            <p class="faq-item__a">We use Stripe for secure payments. All major credit/debit cards are accepted, plus Apple Pay and Google Pay where available.</p>
+          </div>
+          <div class="faq-item">
+            <p class="faq-item__q">How often do you publish?</p>
+            <p class="faq-item__a">New articles are published multiple times per week. Semiconductor articles drop on Wednesdays, AI articles on Mondays, gaming articles on Fridays, and our podcast airs every Sunday. Premium subscribers get early access to all content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-section fade-up">
+          <h2 class="heading-lg">Ready to stay informed?</h2>
+          <p class="body-lg">Join thousands of industry professionals who trust The Tech Room for their tech intelligence.</p>
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
+            <a href="#free-subscribe-form" class="btn btn--ghost">Start Free</a>
+            <a href="#premium-subscribe-form" class="btn btn--primary">Go Premium — $5/mo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo">
+            <img src="img/sbn-logo.png" alt="SBN Media Studio" style="height: 28px; width: auto; border-radius: 4px; margin-right: 0.5rem;">
+            <span>The Tech Room</span>
+          </a>
+          <p class="footer__desc">In-depth coverage and expert analysis of semiconductors, AI, and gaming — trusted by industry professionals.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Topics</h4>
+          <a href="semiconductors.html" class="footer__link">Semiconductors</a>
+          <a href="ai.html" class="footer__link">Artificial Intelligence</a>
+          <a href="gaming.html" class="footer__link">Gaming</a>
+          <a href="podcast.html" class="footer__link">Podcast</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Subscribe</h4>
+          <a href="subscribe.html" class="footer__link">Free Plan</a>
+          <a href="subscribe.html#premium-subscribe-form" class="footer__link">Premium Plan</a>
+          <a href="feed.xml" class="footer__link">RSS Feed</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">More</h4>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="privacy.html" class="footer__link">Privacy Policy</a>
+          <a href="mailto:info@sbnmediastudio.com" class="footer__link">Contact</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 The Tech Room. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/subscribers.js"></script>
+</body>
+</html>
