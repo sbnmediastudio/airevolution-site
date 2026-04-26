@@ -18,6 +18,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>:root { --accent: #7c3aed; --accent-light: #a78bfa; }</style>
+
+<style>
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem; margin-top:1.5rem; }
+.article-card { display:flex; flex-direction:column; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px; overflow:hidden; text-decoration:none; color:inherit; transition:transform 0.2s, border-color 0.2s; }
+.article-card:hover { transform:translateY(-2px); border-color:#7c3aed; }
+.article-card__image { aspect-ratio:16/9; overflow:hidden; background:#1a1a2e; }
+.article-card__image img { width:100%; height:100%; object-fit:cover; }
+.article-card__body { padding:1rem 1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.5rem; }
+.article-card__pillar { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:#a78bfa; font-weight:700; }
+.article-card h3 { font-size:1.05rem; line-height:1.3; margin:0; font-weight:700; color:#fff; }
+.article-card p { font-size:0.88rem; line-height:1.5; color:rgba(255,255,255,0.65); margin:0; flex:1; }
+.article-card time { font-size:0.75rem; color:rgba(255,255,255,0.4); margin-top:0.4rem; }
+</style>
 </head>
 <body>
   <nav class="topbar"><div class="container">
@@ -44,7 +57,130 @@
 
     <section class="article-list">
       <div class="container">
-        <p class="muted">First articles publishing W17 (Wed 2026-04-29).</p>
+        <h2>All agents coverage (11)</h2>
+        <div class="article-grid">
+        <a class="article-card" href="/articles/anthropic-claude-code-pro-plan-pricing-controversy-april-2026.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-tests-pulling-claude-code-from-pro-plan-infrastruc.jpg" alt="Anthropic Tests Pulling Claude Code From $20 Pro Plan — Infrastructure Costs Signal Pricing Shift Ahead" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Anthropic Tests Pulling Claude Code From $20 Pro Plan — Infrastructure Costs Signal Pricing Shift Ahead</h3>
+            <p>On April 21, 2026, Anthropic quietly updated its pricing pages and support documentation to remove Claude Code access from its $20/month Pro plan, listing Claud</p>
+            <time datetime="2026-04-21">2026-04-21</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/google-cloud-next-2026-gemini-enterprise-agent-platform-april-2026.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/google-cloud-next-2026-gemini-enterprise-agent-platform-a2a.jpg" alt="Google Cloud Next 2026: Vertex AI Reborn as Gemini Enterprise Agent Platform With A2A Protocol and 200+ Models" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Google Cloud Next 2026: Vertex AI Reborn as Gemini Enterprise Agent Platform With A2A Protocol and 200+ Models</h3>
+            <p>At Google Cloud Next 2026 on April 22, 2026, Google unveiled a sweeping reorganization of its enterprise AI portfolio under a single new brand: the Gemini Enter</p>
+            <time datetime="2026-04-21">2026-04-21</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-claude-code-source-leak-github-2026.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-claude-code-source-code-leaks-company-accidentally.jpg" alt="Anthropic&#x27;s Claude Code Source Code Leaked — Company Accidentally DMCA&#x27;s Thousands of GitHub Repos" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Anthropic&#x27;s Claude Code Source Code Leaked — Company Accidentally DMCA&#x27;s Thousands of GitHub Repos</h3>
+            <p>On March 31–April 1, 2026, Anthropic accidentally exposed approximately 512,000 lines of TypeScript source code for its Claude Code command-line application aft</p>
+            <time datetime="2026-03-31">2026-03-31</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/microsoft-copilot-revamp-anthropic-2026.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/microsoft-revamps-copilot-with-anthropic-claude-multi-model.jpg" alt="Microsoft Revamps Copilot With Anthropic&#x27;s Claude — New Multi-Model &#x27;Critique&#x27; Feature Launches in Wave 3" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Microsoft Revamps Copilot With Anthropic&#x27;s Claude — New Multi-Model &#x27;Critique&#x27; Feature Launches in Wave 3</h3>
+            <p>Microsoft unveiled a significant overhaul of Microsoft 365 Copilot on March 31, 2026, anchored by a new &amp;quot;Critique&amp;quot; feature that runs two frontier AI models in s</p>
+            <time datetime="2026-03-30">2026-03-30</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/ai-agents.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/ai-agents-mainstream.jpg" alt="AI Agents Go Mainstream in 2026: Coding Assistants, Browser Automation, and Workflow Tools Hit Critical Mass" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>AI Agents Go Mainstream in 2026: Coding Assistants, Browser Automation, and Workflow Tools Hit Critical Mass</h3>
+            <p>The year 2026 has been widely characterized as the moment AI agents transitioned from experimental demos to production-ready tools used by millions. Coding assi</p>
+            <time datetime="2026-03-25">2026-03-25</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/claude-code-auto-mode.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/claude-code-auto-mode.jpg" alt="Claude Code Gets &amp;quot;Auto Mode&amp;quot; and Full Computer Use — Anthropic&#x27;s Agentic Push Accelerates" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Claude Code Gets &amp;quot;Auto Mode&amp;quot; and Full Computer Use — Anthropic&#x27;s Agentic Push Accelerates</h3>
+            <p>Anthropic shipped two significant agentic upgrades on March 24. Claude Code&#x27;s new &amp;quot;auto mode&amp;quot; research preview allows the AI to independently decide which ac</p>
+            <time datetime="2026-03-23">2026-03-23</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-revenue.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-revenue-2.5b.jpg" alt="Anthropic Revenue Doubles to $2.5B Annualized — Claude Code Agent Alone Tops $1B, Pentagon Feud Drives Record Signups" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Anthropic Revenue Doubles to $2.5B Annualized — Claude Code Agent Alone Tops $1B, Pentagon Feud Drives Record Signups</h3>
+            <p>Anthropic&#x27;s annualized revenue more than doubled from the coding agent&#x27;s $1 billion mark at end of 2025 to $2.5 billion by February 2026, putting the company on</p>
+            <time datetime="2026-03-14">2026-03-14</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/mcp-standard.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/mcp-usbc-for-ai.jpg" alt="MCP Becomes the &amp;quot;USB-C for AI&amp;quot; as Anthropic Donates Protocol to Linux Foundation and Rivals Embrace It" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>MCP Becomes the &amp;quot;USB-C for AI&amp;quot; as Anthropic Donates Protocol to Linux Foundation and Rivals Embrace It</h3>
+            <p>Anthropic&#x27;s Model Context Protocol has emerged as the defining interoperability standard for the AI agent ecosystem in 2026. Originally developed to let Claude</p>
+            <time datetime="2026-03-09">2026-03-09</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/claude-memory.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/claude-memory-office.jpg" alt="Claude Memory Features Roll Out to All Users as Opus 4.6 Powers Microsoft PowerPoint and Excel" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Claude Memory Features Roll Out to All Users as Opus 4.6 Powers Microsoft PowerPoint and Excel</h3>
+            <p>Anthropic made two significant product moves in rapid succession. First, the company rolled out persistent memory capabilities to all Claude users, allowing the</p>
+            <time datetime="2026-03-07">2026-03-07</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/ai-agents-enterprise.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/ai-agents-enterprise.jpg" alt="AI Agents Go Mainstream — Enterprise Adoption Hits 40% of Fortune 500 Companies" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>AI Agents Go Mainstream — Enterprise Adoption Hits 40% of Fortune 500 Companies</h3>
+            <p>Autonomous AI agent systems have crossed a critical adoption threshold, with 40% of Fortune 500 companies now deploying them in production workflows according t</p>
+            <time datetime="2026-03-06">2026-03-06</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/google-pentagon.html" data-pillar="agents">
+          <div class="article-card__image">
+            <img src="/images/articles/google-pentagon-agents.jpg" alt="Google Quietly Gains Ground with Pentagon AI Agents Contract Covering 3 Million Unclassified Workers" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Agents</span>
+            <h3>Google Quietly Gains Ground with Pentagon AI Agents Contract Covering 3 Million Unclassified Workers</h3>
+            <p>While the Anthropic-Pentagon standoff and OpenAI controversy dominated headlines, Google has been steadily expanding its presence in government AI deployment. T</p>
+            <time datetime="2026-02-17">2026-02-17</time>
+          </div>
+        </a>
+        </div>
       </div>
     </section>
 

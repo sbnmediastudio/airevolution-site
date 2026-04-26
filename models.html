@@ -18,6 +18,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>:root { --accent: #7c3aed; --accent-light: #a78bfa; }</style>
+
+<style>
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem; margin-top:1.5rem; }
+.article-card { display:flex; flex-direction:column; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px; overflow:hidden; text-decoration:none; color:inherit; transition:transform 0.2s, border-color 0.2s; }
+.article-card:hover { transform:translateY(-2px); border-color:#7c3aed; }
+.article-card__image { aspect-ratio:16/9; overflow:hidden; background:#1a1a2e; }
+.article-card__image img { width:100%; height:100%; object-fit:cover; }
+.article-card__body { padding:1rem 1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.5rem; }
+.article-card__pillar { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:#a78bfa; font-weight:700; }
+.article-card h3 { font-size:1.05rem; line-height:1.3; margin:0; font-weight:700; color:#fff; }
+.article-card p { font-size:0.88rem; line-height:1.5; color:rgba(255,255,255,0.65); margin:0; flex:1; }
+.article-card time { font-size:0.75rem; color:rgba(255,255,255,0.4); margin-top:0.4rem; }
+</style>
 </head>
 <body>
   <nav class="topbar"><div class="container">
@@ -44,8 +57,284 @@
 
     <section class="article-list">
       <div class="container">
-        <!-- Articles populated by the pipeline at /articles/<slug>.html with category=models -->
-        <p class="muted">First articles publishing W17 (Wed 2026-04-29).</p>
+        <h2>All models coverage (25)</h2>
+        <div class="article-grid">
+        <a class="article-card" href="/articles/anthropic-claude-opus-47-launch-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-launches-claude-opus-47-with-high-resolution-visio.jpg" alt="Anthropic Launches Claude Opus 4.7 with High-Resolution Vision, Task Budgets, and Faster Agentic Performance" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Anthropic Launches Claude Opus 4.7 with High-Resolution Vision, Task Budgets, and Faster Agentic Performance</h3>
+            <p>Anthropic launched Claude Opus 4.7 on April 16, 2026, releasing its most capable generally available model to date. The model introduces several new capabilitie</p>
+            <time datetime="2026-04-15">2026-04-15</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-gpt54-cyber-restricted-model-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-unveils-restricted-gpt-cybersecurity-model-following.jpg" alt="OpenAI Unveils Restricted GPT-5.4-Cyber Security Model, Taking Different Approach Than Anthropic&#x27;s Mythos" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Unveils Restricted GPT-5.4-Cyber Security Model, Taking Different Approach Than Anthropic&#x27;s Mythos</h3>
+            <p>OpenAI unveiled GPT-5.4-Cyber on April 15, 2026 — a restricted-access AI model designed specifically for offensive and defensive cybersecurity work — following</p>
+            <time datetime="2026-04-14">2026-04-14</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/pwc-ai-performance-study-top-companies-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/pwc-study-top-20-percent-of-companies-capturing-75-percent-o.jpg" alt="PwC Study: Top 20% of Companies Capturing 75% of AI&#x27;s Economic Gains" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>PwC Study: Top 20% of Companies Capturing 75% of AI&#x27;s Economic Gains</h3>
+            <p>Three-quarters of AI&#x27;s economic gains are being captured by just 20% of companies, according to PwC&#x27;s 2026 AI Performance Study released April 13. The research</p>
+            <time datetime="2026-04-12">2026-04-12</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/sundar-pichai-us-ai-leadership-60-minutes-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/google-ceo-sundar-pichai-america-must-lead-ai-development-bo.jpg" alt="Google CEO Sundar Pichai: America Must Lead AI Development &#x27;Boldly and Responsibly&#x27;" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Google CEO Sundar Pichai: America Must Lead AI Development &#x27;Boldly and Responsibly&#x27;</h3>
+            <p>Google CEO Sundar Pichai called artificial intelligence &amp;quot;the most profound technology yet&amp;quot; and urged the United States to lead its development in a CBS 60 Minut</p>
+            <time datetime="2026-04-11">2026-04-11</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/musk-openai-trial-ceo-ouster-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/musk-vs-openai-trial-jury-selection-set-for-april-27-as-ceo.jpg" alt="Musk vs. OpenAI Trial: Jury Selection Set for April 27 as CEO Ouster Bid Escalates" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Musk vs. OpenAI Trial: Jury Selection Set for April 27 as CEO Ouster Bid Escalates</h3>
+            <p>Elon Musk escalated his long-running lawsuit against OpenAI during the week of April 7-11, 2026, seeking not only damages but the explicit ouster of CEO Sam Alt</p>
+            <time datetime="2026-04-10">2026-04-10</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/meta-muse-spark-proprietary-model-open-source-shift-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/meta-muse-spark-proprietary-ai-model-open-source-shift.jpg" alt="Meta Launches Muse Spark, Its First Closed Proprietary AI Model, Abandoning Open-Source Llama Strategy" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Meta Launches Muse Spark, Its First Closed Proprietary AI Model, Abandoning Open-Source Llama Strategy</h3>
+            <p>On April 8, 2026, Meta debuted Muse Spark — the first model from its new Meta Superintelligence Labs, headed by chief AI officer Alexandr Wang. The model is clo</p>
+            <time datetime="2026-04-07">2026-04-07</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-ipo-retail-investors-852b-valuation-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-ipo-targets-retail-investors-as-852-billion-valuation.jpg" alt="OpenAI IPO Targets Retail Investors as $852 Billion Valuation Reshapes AI Finance" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI IPO Targets Retail Investors as $852 Billion Valuation Reshapes AI Finance</h3>
+            <p>OpenAI CFO Sarah Friar told CNBC on April 8, 2026 that the company intends to allocate IPO shares to retail investors as it prepares for a public market debut,</p>
+            <time datetime="2026-04-07">2026-04-07</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-mythos-model-cybersecurity-project-glasswing-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-mythos-model-cybersecurity-project-glasswing.jpg" alt="Anthropic Debuts Mythos, Its Most Capable Model Yet, Restricted to 12 Cybersecurity Partners Under Project Glasswing" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Anthropic Debuts Mythos, Its Most Capable Model Yet, Restricted to 12 Cybersecurity Partners Under Project Glasswing</h3>
+            <p>On April 7, 2026, Anthropic unveiled a preview of Mythos — described internally as the company&#x27;s most capable model to date — but deliberately restricted access</p>
+            <time datetime="2026-04-06">2026-04-06</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/meta-llama-4-launch-april-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/meta-releases-llama-4-with-scout-and-maverick-models-10m-tok.jpg" alt="Meta Releases Llama 4 with Scout and Maverick Models, Natively Multimodal and 10M Token Context" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Meta Releases Llama 4 with Scout and Maverick Models, Natively Multimodal and 10M Token Context</h3>
+            <p>Meta launched Llama 4 Scout and Llama 4 Maverick on April 5, 2026, framing the release as a direct response to competitive pressure from Chinese open-source mod</p>
+            <time datetime="2026-04-04">2026-04-04</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/google-gemma-4-apache-license-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/google-deepmind-launches-gemma-4-under-apache-20-license.jpg" alt="Google DeepMind Launches Gemma 4 Under Apache 2.0 License, Removing Key Enterprise Barrier" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Google DeepMind Launches Gemma 4 Under Apache 2.0 License, Removing Key Enterprise Barrier</h3>
+            <p>Google DeepMind released Gemma 4 on April 2, 2026 under the Apache 2.0 license — a first for the Gemma model family. Prior Gemma releases were governed by Googl</p>
+            <time datetime="2026-04-01">2026-04-01</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-acquires-tbpn-media-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-acquires-tech-talk-show-tbpn-in-first-ever-media-comp.jpg" alt="OpenAI Acquires Tech Talk Show TBPN in First-Ever Media Company Purchase" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Acquires Tech Talk Show TBPN in First-Ever Media Company Purchase</h3>
+            <p>OpenAI acquired TBPN (Technology Business Programming Network) on April 2, 2026 — the company&#x27;s first-ever purchase of a media property and one of the most unus</p>
+            <time datetime="2026-04-01">2026-04-01</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-122b-funding-852b-valuation-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-closes-record-122-billion-dollar-funding-round-at-852.jpg" alt="OpenAI Closes Record $122 Billion Funding Round, Valued at $852 Billion" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Closes Record $122 Billion Funding Round, Valued at $852 Billion</h3>
+            <p>OpenAI closed the largest private funding round in history on March 31, 2026, raising $122 billion and setting a valuation of $852 billion — a figure that makes</p>
+            <time datetime="2026-03-30">2026-03-30</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-claude-enterprise-market-share-2026.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-claude-wins-70-percent-of-enterprise-ai-head-to-he.jpg" alt="Anthropic Claude Wins 70% of Enterprise Head-to-Head Matchups Against OpenAI in 2026" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Anthropic Claude Wins 70% of Enterprise Head-to-Head Matchups Against OpenAI in 2026</h3>
+            <p>The Ramp March 2026 AI Index — which tracks real corporate credit card spending across more than 50,000 businesses — reveals a striking shift in enterprise AI a</p>
+            <time datetime="2026-03-27">2026-03-27</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/google-gemini-import-chatgpt-claude-history.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/google-gemini-launches-import-tool-for-chatgpt-and-claude-ch.jpg" alt="Google Gemini Launches Import Tool for ChatGPT and Claude Chat History in AI Portability Race" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Google Gemini Launches Import Tool for ChatGPT and Claude Chat History in AI Portability Race</h3>
+            <p>Google launched two new Gemini features on March 26, 2026 — &#x27;Import Memory&#x27; and &#x27;Import Chat History&#x27; — that allow users to migrate their entire context from Ch</p>
+            <time datetime="2026-03-25">2026-03-25</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-110b-funding.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-110b-funding.jpg" alt="OpenAI Closes Record $110B Funding Round Led by Amazon, SoftBank, and NVIDIA — Valued at $840B" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Closes Record $110B Funding Round Led by Amazon, SoftBank, and NVIDIA — Valued at $840B</h3>
+            <p>OpenAI has completed a $110 billion funding round — one of the largest private investment rounds in corporate history — bringing its post-money valuation to $84</p>
+            <time datetime="2026-03-24">2026-03-24</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/gpt54-free.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/gpt54-free-tier.jpg" alt="GPT-5.4 Now Available on ChatGPT&#x27;s Free Tier, Bringing Frontier AI to Hundreds of Millions" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>GPT-5.4 Now Available on ChatGPT&#x27;s Free Tier, Bringing Frontier AI to Hundreds of Millions</h3>
+            <p>OpenAI made its most powerful generally available model, GPT-5.4, accessible to all free-tier ChatGPT users with usage limits. The move brought frontier-level a</p>
+            <time datetime="2026-03-23">2026-03-23</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-sora-shutdown.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-sora-shutdown.jpg" alt="OpenAI Pulls the Plug on Sora — $15M/Day Burn Rate and $2.1M Lifetime Revenue Sealed Its Fate" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Pulls the Plug on Sora — $15M/Day Burn Rate and $2.1M Lifetime Revenue Sealed Its Fate</h3>
+            <p>OpenAI quietly shut down Sora, its AI video generation product, on March 24, citing compute reallocation and a strategic pivot toward world simulation for robot</p>
+            <time datetime="2026-03-23">2026-03-23</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/frontier-models.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/frontier-models-q1.jpg" alt="GPT-5.4, Gemini 3.1 Pro, and Claude Opus 4.6 Reshape the Frontier Model Landscape in Q1 2026" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>GPT-5.4, Gemini 3.1 Pro, and Claude Opus 4.6 Reshape the Frontier Model Landscape in Q1 2026</h3>
+            <p>The first quarter of 2026 delivered a rapid-fire sequence of frontier model releases that redefined the competitive landscape of generative AI. Google&#x27;s Gemini</p>
+            <time datetime="2026-03-21">2026-03-21</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-revenue.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/ai-revenue-race.jpg" alt="OpenAI Surpasses $25 Billion in Annualized Revenue, Eyes Late-2026 IPO as Anthropic Approaches $19 Billion" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Surpasses $25 Billion in Annualized Revenue, Eyes Late-2026 IPO as Anthropic Approaches $19 Billion</h3>
+            <p>The business of artificial intelligence reached staggering new heights in early 2026. OpenAI disclosed that it has surpassed $25 billion in annualized revenue,</p>
+            <time datetime="2026-03-19">2026-03-19</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/gpt54.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/gpt54-launch.jpg" alt="OpenAI Launches GPT-5.4 With 1 Million Token Context — Plus Mini and Nano Variants for Every Budget" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Launches GPT-5.4 With 1 Million Token Context — Plus Mini and Nano Variants for Every Budget</h3>
+            <p>OpenAI released GPT-5.4 in early March as its most capable frontier model, available in standard, Thinking (reasoning), and Pro (high-performance) versions. The</p>
+            <time datetime="2026-03-17">2026-03-17</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/ai-spending-1.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/ai-server-spending-global.jpg" alt="Global AI Server Spending Jumps 45% in 2026, Reaching $312 Billion as Infrastructure Race Accelerates" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Global AI Server Spending Jumps 45% in 2026, Reaching $312 Billion as Infrastructure Race Accelerates</h3>
+            <p>Capital expenditure on AI server infrastructure surged 45% year-over-year in 2026, reaching a projected $312 billion according to industry analysts. The spendin</p>
+            <time datetime="2026-03-16">2026-03-16</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/deepseek.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/deepseek-efficient-ai.jpg" alt="DeepSeek Continues to Challenge Western AI Labs with Compute-Efficient Open Models" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>DeepSeek Continues to Challenge Western AI Labs with Compute-Efficient Open Models</h3>
+            <p>Chinese AI lab DeepSeek maintained its position as one of the most disruptive forces in the global AI landscape throughout early 2026. The company&#x27;s latest open</p>
+            <time datetime="2026-03-13">2026-03-13</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-skills.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-skills.jpg" alt="OpenAI Introduces &amp;quot;Skills&amp;quot; — Reusable, Shareable Workflow Automations for ChatGPT" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>OpenAI Introduces &amp;quot;Skills&amp;quot; — Reusable, Shareable Workflow Automations for ChatGPT</h3>
+            <p>OpenAI unveiled Skills, a new feature that lets ChatGPT users create, save, and share reusable workflows that automate multi-step tasks. Skills function as ligh</p>
+            <time datetime="2026-03-04">2026-03-04</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/gemini-flash-lite.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/gemini-flash-lite.jpg" alt="Gemini 3.1 Flash-Lite Delivers 2.5x Speed at $0.25 per Million Input Tokens" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Gemini 3.1 Flash-Lite Delivers 2.5x Speed at $0.25 per Million Input Tokens</h3>
+            <p>Google DeepMind released Gemini 3.1 Flash-Lite, an aggressively optimized variant designed for high-throughput, cost-sensitive applications. The model runs 2.5</p>
+            <time datetime="2026-03-02">2026-03-02</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/xiaomi-model.html" data-pillar="models">
+          <div class="article-card__image">
+            <img src="/images/articles/xiaomi-trillion-param.jpg" alt="Xiaomi Releases a One-Trillion Parameter Open-Source Model, Pushing the Boundaries of Open AI Development" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Models</span>
+            <h3>Xiaomi Releases a One-Trillion Parameter Open-Source Model, Pushing the Boundaries of Open AI Development</h3>
+            <p>Chinese technology giant Xiaomi surprised the global AI community by releasing a one-trillion parameter large language model under a permissive open-source lice</p>
+            <time datetime="2026-02-24">2026-02-24</time>
+          </div>
+        </a>
+        </div>
       </div>
     </section>
 

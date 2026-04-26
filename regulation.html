@@ -18,6 +18,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>:root { --accent: #7c3aed; --accent-light: #a78bfa; }</style>
+
+<style>
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem; margin-top:1.5rem; }
+.article-card { display:flex; flex-direction:column; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px; overflow:hidden; text-decoration:none; color:inherit; transition:transform 0.2s, border-color 0.2s; }
+.article-card:hover { transform:translateY(-2px); border-color:#7c3aed; }
+.article-card__image { aspect-ratio:16/9; overflow:hidden; background:#1a1a2e; }
+.article-card__image img { width:100%; height:100%; object-fit:cover; }
+.article-card__body { padding:1rem 1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.5rem; }
+.article-card__pillar { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:#a78bfa; font-weight:700; }
+.article-card h3 { font-size:1.05rem; line-height:1.3; margin:0; font-weight:700; color:#fff; }
+.article-card p { font-size:0.88rem; line-height:1.5; color:rgba(255,255,255,0.65); margin:0; flex:1; }
+.article-card time { font-size:0.75rem; color:rgba(255,255,255,0.4); margin-top:0.4rem; }
+</style>
 </head>
 <body>
   <nav class="topbar"><div class="container">
@@ -44,7 +57,108 @@
 
     <section class="article-list">
       <div class="container">
-        <p class="muted">First articles publishing W17 (Wed 2026-04-29).</p>
+        <h2>All regulation coverage (9)</h2>
+        <div class="article-grid">
+        <a class="article-card" href="/articles/google-gemini-pentagon-classified-anthropic-phase-out-april-2026.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/pentagon-moves-to-deploy-google-gemini-after-anthropic-phase.jpg" alt="Pentagon Moves Toward Google Gemini After Six-Month Anthropic Phase-Out Over Military AI Policy" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>Pentagon Moves Toward Google Gemini After Six-Month Anthropic Phase-Out Over Military AI Policy</h3>
+            <p>Google is in active negotiations with the Pentagon to deploy its Gemini AI models inside classified Department of Defense systems, following the US military&#x27;s d</p>
+            <time datetime="2026-04-19">2026-04-19</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/openai-anthropic-google-unite-against-china-ai-model-distillation-april-2026.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-anthropic-google-unite-against-china-ai-model-distill.jpg" alt="OpenAI, Anthropic, and Google Form Joint Front Against Chinese AI Model Distillation" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>OpenAI, Anthropic, and Google Form Joint Front Against Chinese AI Model Distillation</h3>
+            <p>OpenAI, Anthropic, and Google announced on April 6, 2026 — reported by Bloomberg — that they are sharing intelligence through the Frontier Model Forum to detect</p>
+            <time datetime="2026-04-05">2026-04-05</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-pentagon-injunction-doj-appeal-2026.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-wins-court-injunction-against-pentagon-national-se.jpg" alt="Anthropic Wins Court Injunction Against Pentagon&#x27;s National Security Ban — DOJ Appeals" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>Anthropic Wins Court Injunction Against Pentagon&#x27;s National Security Ban — DOJ Appeals</h3>
+            <p>A federal judge issued an injunction on March 26, 2026 ordering the Trump administration to rescind its designation of Anthropic as a &amp;quot;Supply-Chain Risk to Nati</p>
+            <time datetime="2026-04-01">2026-04-01</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-pentagon.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-pentagon-hero.jpg" alt="Pentagon Labels Anthropic a &amp;quot;Supply-Chain Risk&amp;quot; After Company Refuses Military Surveillance Contract" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>Pentagon Labels Anthropic a &amp;quot;Supply-Chain Risk&amp;quot; After Company Refuses Military Surveillance Contract</h3>
+            <p>The relationship between artificial intelligence companies and the U.S. Department of Defense reached a breaking point in early 2026. The Pentagon formally desi</p>
+            <time datetime="2026-03-27">2026-03-27</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/eu-ai-act-enforcement.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/eu-ai-act-fines.jpg" alt="EU AI Act Enforcement Begins — First Fines Up to 7% of Global Revenue Expected by Summer" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>EU AI Act Enforcement Begins — First Fines Up to 7% of Global Revenue Expected by Summer</h3>
+            <p>The European Union&#x27;s AI Act entered its first active enforcement phase in March 2026, with regulators now empowered to investigate and penalize non-compliant AI</p>
+            <time datetime="2026-03-26">2026-03-26</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/ai-bots-outnumber-humans-internet-traffic.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/ai-bots-now-outnumber-humans-online-as-traffic-surges-187-pe.jpg" alt="AI Bots Now Outnumber Humans Online as LLM-Driven Traffic Surges 187%" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>AI Bots Now Outnumber Humans Online as LLM-Driven Traffic Surges 187%</h3>
+            <p>AI and bot traffic now officially outnumbers human traffic on the internet, according to a new report published March 26, 2026. The study found that AI-driven w</p>
+            <time datetime="2026-03-25">2026-03-25</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/quitgpt.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/quitgpt-movement.jpg" alt="#QuitGPT Movement Surges Past 2.5 Million Supporters as OpenAI Pentagon Deal Triggers Mass Uninstalls" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>#QuitGPT Movement Surges Past 2.5 Million Supporters as OpenAI Pentagon Deal Triggers Mass Uninstalls</h3>
+            <p>OpenAI&#x27;s decision to partner with the Pentagon on defense applications ignited an unprecedented consumer backlash under the #QuitGPT banner. The grassroots move</p>
+            <time datetime="2026-03-24">2026-03-24</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-institute.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-institute.jpg" alt="Anthropic Launches the Anthropic Institute to Study AI&#x27;s Broader Societal Impacts" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>Anthropic Launches the Anthropic Institute to Study AI&#x27;s Broader Societal Impacts</h3>
+            <p>Anthropic announced the formation of the Anthropic Institute, a dedicated research body focused on understanding how artificial intelligence reshapes labor mark</p>
+            <time datetime="2026-02-11">2026-02-11</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/eu-ai-act.html" data-pillar="regulation">
+          <div class="article-card__image">
+            <img src="/images/articles/eu-ai-act-enforcement.jpg" alt="EU AI Act Enforcement Begins as Companies Scramble to Comply with the World&#x27;s First Comprehensive AI Law" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Regulation</span>
+            <h3>EU AI Act Enforcement Begins as Companies Scramble to Comply with the World&#x27;s First Comprehensive AI Law</h3>
+            <p>The European Union&#x27;s AI Act, the most comprehensive regulatory framework for artificial intelligence anywhere in the world, entered its enforcement phase in ear</p>
+            <time datetime="2026-02-07">2026-02-07</time>
+          </div>
+        </a>
+        </div>
       </div>
     </section>
 

@@ -18,6 +18,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>:root { --accent: #7c3aed; --accent-light: #a78bfa; }</style>
+
+<style>
+.article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem; margin-top:1.5rem; }
+.article-card { display:flex; flex-direction:column; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px; overflow:hidden; text-decoration:none; color:inherit; transition:transform 0.2s, border-color 0.2s; }
+.article-card:hover { transform:translateY(-2px); border-color:#7c3aed; }
+.article-card__image { aspect-ratio:16/9; overflow:hidden; background:#1a1a2e; }
+.article-card__image img { width:100%; height:100%; object-fit:cover; }
+.article-card__body { padding:1rem 1.2rem 1.4rem; flex:1; display:flex; flex-direction:column; gap:0.5rem; }
+.article-card__pillar { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.08em; color:#a78bfa; font-weight:700; }
+.article-card h3 { font-size:1.05rem; line-height:1.3; margin:0; font-weight:700; color:#fff; }
+.article-card p { font-size:0.88rem; line-height:1.5; color:rgba(255,255,255,0.65); margin:0; flex:1; }
+.article-card time { font-size:0.75rem; color:rgba(255,255,255,0.4); margin-top:0.4rem; }
+</style>
 </head>
 <body>
   <nav class="topbar"><div class="container">
@@ -44,7 +57,42 @@
 
     <section class="article-list">
       <div class="container">
-        <p class="muted">First articles publishing W17 (Wed 2026-04-29).</p>
+        <h2>All infrastructure coverage (3)</h2>
+        <div class="article-grid">
+        <a class="article-card" href="/articles/openai-cerebras-20-billion-deal-equity-stake-april-2026.html" data-pillar="infrastructure">
+          <div class="article-card__image">
+            <img src="/images/articles/openai-commits-0-billion-to-cerebras-chips-over-three-years.jpg" alt="OpenAI Commits $20B+ to Cerebras Chips Over Three Years, Receives Equity Stake Up to 10%" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Infrastructure</span>
+            <h3>OpenAI Commits $20B+ to Cerebras Chips Over Three Years, Receives Equity Stake Up to 10%</h3>
+            <p>OpenAI has agreed to spend more than $20 billion over three years on servers powered by Cerebras chips — more than double the $10 billion deal the two companies</p>
+            <time datetime="2026-04-16">2026-04-16</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/anthropic-coreweave-deal-30b-revenue-april-2026.html" data-pillar="infrastructure">
+          <div class="article-card__image">
+            <img src="/images/articles/anthropic-hits-30-billion-revenue-run-rate-signs-coreweave-i.jpg" alt="Anthropic Hits $30 Billion Revenue Run Rate, Signs CoreWeave Infrastructure Deal" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Infrastructure</span>
+            <h3>Anthropic Hits $30 Billion Revenue Run Rate, Signs CoreWeave Infrastructure Deal</h3>
+            <p>Anthropic disclosed on April 10, 2026 that its annual revenue run rate has surpassed $30 billion — a staggering leap from the $9 billion run rate the company re</p>
+            <time datetime="2026-04-09">2026-04-09</time>
+          </div>
+        </a>
+        <a class="article-card" href="/articles/gemini31.html" data-pillar="infrastructure">
+          <div class="article-card__image">
+            <img src="/images/articles/gemini-31-pro.jpg" alt="Google Ships Gemini 3.1 Pro With Double the Reasoning Power — Plus Computer Use, Multimodal Embeddings" loading="lazy">
+          </div>
+          <div class="article-card__body">
+            <span class="article-card__pillar">Infrastructure</span>
+            <h3>Google Ships Gemini 3.1 Pro With Double the Reasoning Power — Plus Computer Use, Multimodal Embeddings</h3>
+            <p>Google released Gemini 3.1 Pro in February 2026, delivering more than double the reasoning performance of Gemini 3 Pro with a 1-million-token context window and</p>
+            <time datetime="2026-03-11">2026-03-11</time>
+          </div>
+        </a>
+        </div>
       </div>
     </section>
 
