@@ -1,0 +1,47 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate sitemap.xml is well-formed
+        run: |
+          if [ -f sitemap.xml ]; then
+            python -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml')"
+            echo "sitemap.xml is valid XML"
+          fi
+      - name: Validate feed.xml is well-formed
+        run: |
+          python -c "import xml.etree.ElementTree as ET; ET.parse('feed.xml')"
+          echo "feed.xml is valid XML"
+      - name: Check JSON-LD blocks parse as valid JSON
+        run: |
+          python <<'EOF'
+          import json, re, glob, sys
+          fail = 0
+          for path in glob.glob("**/*.html", recursive=True):
+              if "node_modules" in path:
+                  continue
+              try:
+                  with open(path, encoding="utf-8") as f:
+                      html = f.read()
+              except Exception:
+                  continue
+              for m in re.finditer(r'<script\s+type\s*=\s*"application/ld\+json"[^>]*>(.*?)</script>', html, re.DOTALL):
+                  try:
+                      json.loads(m.group(1))
+                  except Exception as e:
+                      print(f"FAIL JSON-LD parse in {path}: {e}")
+                      fail += 1
+          print(f"{fail} JSON-LD parse errors")
+          sys.exit(1 if fail else 0)
+          EOF
+      - name: Check no cross-brand references
+        run: |
+          ! grep -r "thetechroom.sbnmediastudio\|semiconductor.sbnmediastudio" --include="*.html" . || (echo "FAIL: cross-brand reference found"; exit 1)
+          echo "No cross-brand references — niche purity preserved"

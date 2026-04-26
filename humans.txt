@@ -1,0 +1,13 @@
+# humanstxt.org · AI Revolution
+
+/* TEAM */
+Publisher: SBN Media Studio
+Contact: sbn.mediastudio@gmail.com
+From: Tel Aviv, Israel · global readership
+
+/* SITE */
+Last update: 2026-04-27
+Standards: HTML5, CSS3, JSON-LD, RSS 2.0
+Components: Vercel hosting, Cloudflare DNS, Newsreader serif + Inter Tight typography
+Operations: weekly publish (Wed 14:00 local), automated via SBN agent crew
+Founded: 2026-04-26 (brand split from The Tech Room)

@@ -1,0 +1,33 @@
+# AI Revolution
+
+> Weekly AI intelligence — frontier models, AI agents, infrastructure, regulation, enterprise adoption. Builder-grade analysis for AI engineers, founders, and serious observers.
+
+AI Revolution is a niche-pure AI publication by SBN Media Studio. We cover OpenAI, Anthropic, Google DeepMind, Meta, xAI, Mistral, DeepSeek, Qwen, plus AI agents (Claude Code, Cursor, Devin, Replit, Windsurf, Copilot Workspace), the MCP protocol, AI infrastructure (hyperscaler capex, data centers, power), and AI policy.
+
+## Coverage areas
+
+- [Frontier Models](https://airevolution.sbnmediastudio.com/models.html): GPT-5, Claude Opus, Gemini Ultra, Llama 4, Grok, Mistral, DeepSeek, Qwen. Releases, benchmarks, pricing, capabilities.
+- [AI Agents](https://airevolution.sbnmediastudio.com/agents.html): Claude Code, Cursor, Devin, Replit, Windsurf, GitHub Copilot Workspace. The MCP standard, tool use, autonomous coding.
+- [Infrastructure](https://airevolution.sbnmediastudio.com/infrastructure.html): Microsoft Azure, Google Cloud, AWS, Oracle, Meta, CoreWeave, Lambda. Hyperscaler capex, data centers, power agreements, AI compute economics.
+- [Regulation & Safety](https://airevolution.sbnmediastudio.com/regulation.html): EU AI Act, US executive orders, California SB 1047, China rules, AI safety institutes, alignment research, red teaming.
+
+## Editorial standards
+
+- Citation-first: Anthropic system cards, OpenAI papers, hyperscaler earnings, regulatory filings.
+- Tier 2 analysis: Stratechery, Latent Space, The Information AI, Lenny Rachitsky.
+- We do not take sides on AI doomer/booster axis.
+- Out of scope: semiconductor manufacturing (sister site The Tech Room), gaming, consumer apps.
+
+## Formats
+
+- [Articles](https://airevolution.sbnmediastudio.com/articles/): ~800-1500 word analysis pieces.
+- [Podcast](https://airevolution.sbnmediastudio.com/podcast.html): weekly 15-20 min episode, available on YouTube and Spotify.
+- [RSS feed](https://airevolution.sbnmediastudio.com/feed.xml).
+- [Newsletter](https://airevolution.sbnmediastudio.com/subscribe.html): free weekly briefing.
+
+## About
+
+- Publisher: SBN Media Studio
+- Contact: sbn.mediastudio@gmail.com
+- [About](https://airevolution.sbnmediastudio.com/about.html)
+- [Privacy](https://airevolution.sbnmediastudio.com/privacy.html)
