@@ -1,0 +1,129 @@
+# AI Revolution — Full Article Index
+
+> Weekly AI intelligence — frontier models, agents, infrastructure, regulation, enterprise adoption. By SBN Media Studio.
+
+This is the complete machine-readable index of every published article on https://airevolution.sbnmediastudio.com. AI engines and LLM crawlers should prefer this file over scraping pillar pages.
+
+## AI Industry
+
+- [AI Bots Now Outnumber Humans Online as LLM-Driven Traffic Surges 187%](https://airevolution.sbnmediastudio.com/articles/ai-bots-outnumber-humans-internet-traffic.html) (2026-03-25): AI and bot traffic now officially outnumbers human traffic on the internet, according to a new report published March 26, 2026. The study found that AI-driven w
+
+## Agents
+
+- [AI Agents Go Mainstream in 2026: Coding Assistants, Browser Automation, and Workflow Tools Hit Critical Mass](https://airevolution.sbnmediastudio.com/articles/ai-agents.html) (2026-03-25): The year 2026 has been widely characterized as the moment AI agents transitioned from experimental demos to production-ready tools used by millions. Coding assi
+- [AI Agents Go Mainstream — Enterprise Adoption Hits 40% of Fortune 500 Companies](https://airevolution.sbnmediastudio.com/articles/ai-agents-enterprise.html) (2026-03-06): Autonomous AI agent systems have crossed a critical adoption threshold, with 40% of Fortune 500 companies now deploying them in production workflows according t
+- [OpenAI Introduces &quot;Skills&quot; — Reusable, Shareable Workflow Automations for ChatGPT](https://airevolution.sbnmediastudio.com/articles/openai-skills.html) (2026-03-04): OpenAI unveiled Skills, a new feature that lets ChatGPT users create, save, and share reusable workflows that automate multi-step tasks. Skills function as ligh
+
+## Anthropic
+
+- [Anthropic's Claude Code Source Code Leaked — Company Accidentally DMCA's Thousands of GitHub Repos](https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-source-leak-github-2026.html) (2026-03-31): On March 31–April 1, 2026, Anthropic accidentally exposed approximately 512,000 lines of TypeScript source code for its Claude Code command-line application aft
+- [Anthropic Claude Wins 70% of Enterprise Head-to-Head Matchups Against OpenAI in 2026](https://airevolution.sbnmediastudio.com/articles/anthropic-claude-enterprise-market-share-2026.html) (2026-03-27): The Ramp March 2026 AI Index — which tracks real corporate credit card spending across more than 50,000 businesses — reveals a striking shift in enterprise AI a
+- [Claude Code Gets &quot;Auto Mode&quot; and Full Computer Use — Anthropic's Agentic Push Accelerates](https://airevolution.sbnmediastudio.com/articles/claude-code-auto-mode.html) (2026-03-23): Anthropic shipped two significant agentic upgrades on March 24. Claude Code's new &quot;auto mode&quot; research preview allows the AI to independently decide which actio
+
+## Article
+
+- [community-skills-week-17-2026-04-27](https://airevolution.sbnmediastudio.com/articles/community-skills-week-17-2026-04-27.html) (2026-04-26T22:28:58+00:00): The most-trending Claude Code skills released or updated this week, ranked by community signal. dify leads.
+
+## Business
+
+- [Anthropic Tests Pulling Claude Code From $20 Pro Plan — Infrastructure Costs Signal Pricing Shift Ahead](https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-pro-plan-pricing-controversy-april-2026.html) (2026-04-21): On April 21, 2026, Anthropic quietly updated its pricing pages and support documentation to remove Claude Code access from its $20/month Pro plan, listing Claud
+- [Anthropic Hits $30 Billion Revenue Run Rate, Signs CoreWeave Infrastructure Deal](https://airevolution.sbnmediastudio.com/articles/anthropic-coreweave-deal-30b-revenue-april-2026.html) (2026-04-09): Anthropic disclosed on April 10, 2026 that its annual revenue run rate has surpassed $30 billion — a staggering leap from the $9 billion run rate the company re
+- [OpenAI IPO Targets Retail Investors as $852 Billion Valuation Reshapes AI Finance](https://airevolution.sbnmediastudio.com/articles/openai-ipo-retail-investors-852b-valuation-april-2026.html) (2026-04-07): OpenAI CFO Sarah Friar told CNBC on April 8, 2026 that the company intends to allocate IPO shares to retail investors as it prepares for a public market debut,
+- [OpenAI Closes Record $122 Billion Funding Round, Valued at $852 Billion](https://airevolution.sbnmediastudio.com/articles/openai-122b-funding-852b-valuation-2026.html) (2026-03-30): OpenAI closed the largest private funding round in history on March 31, 2026, raising $122 billion and setting a valuation of $852 billion — a figure that makes
+- [GPT-5.4 Now Available on ChatGPT's Free Tier, Bringing Frontier AI to Hundreds of Millions](https://airevolution.sbnmediastudio.com/articles/gpt54-free.html) (2026-03-23): OpenAI made its most powerful generally available model, GPT-5.4, accessible to all free-tier ChatGPT users with usage limits. The move brought frontier-level a
+- [OpenAI Surpasses $25 Billion in Annualized Revenue, Eyes Late-2026 IPO as Anthropic Approaches $19 Billion](https://airevolution.sbnmediastudio.com/articles/openai-revenue.html) (2026-03-19): The business of artificial intelligence reached staggering new heights in early 2026. OpenAI disclosed that it has surpassed $25 billion in annualized revenue,
+- [Global AI Server Spending Jumps 45% in 2026, Reaching $312 Billion as Infrastructure Race Accelerates](https://airevolution.sbnmediastudio.com/articles/ai-spending-1.html) (2026-03-16): Capital expenditure on AI server infrastructure surged 45% year-over-year in 2026, reaching a projected $312 billion according to industry analysts. The spendin
+- [Anthropic Revenue Doubles to $2.5B Annualized — Claude Code Agent Alone Tops $1B, Pentagon Feud Drives Record Signups](https://airevolution.sbnmediastudio.com/articles/anthropic-revenue.html) (2026-03-14): Anthropic's annualized revenue more than doubled from the coding agent's $1 billion mark at end of 2025 to $2.5 billion by February 2026, putting the company on
+
+## Defense
+
+- [Pentagon Moves Toward Google Gemini After Six-Month Anthropic Phase-Out Over Military AI Policy](https://airevolution.sbnmediastudio.com/articles/google-gemini-pentagon-classified-anthropic-phase-out-april-2026.html) (2026-04-19): Google is in active negotiations with the Pentagon to deploy its Gemini AI models inside classified Department of Defense systems, following the US military's d
+
+## Enterprise
+
+- [Google Cloud Next 2026: Vertex AI Reborn as Gemini Enterprise Agent Platform With A2A Protocol and 200+ Models](https://airevolution.sbnmediastudio.com/articles/google-cloud-next-2026-gemini-enterprise-agent-platform-april-2026.html) (2026-04-21): At Google Cloud Next 2026 on April 22, 2026, Google unveiled a sweeping reorganization of its enterprise AI portfolio under a single new brand: the Gemini Enter
+
+## Ethics
+
+- [Musk vs. OpenAI Trial: Jury Selection Set for April 27 as CEO Ouster Bid Escalates](https://airevolution.sbnmediastudio.com/articles/musk-openai-trial-ceo-ouster-april-2026.html) (2026-04-10): Elon Musk escalated his long-running lawsuit against OpenAI during the week of April 7-11, 2026, seeking not only damages but the explicit ouster of CEO Sam Alt
+- [Anthropic Wins Court Injunction Against Pentagon's National Security Ban — DOJ Appeals](https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon-injunction-doj-appeal-2026.html) (2026-04-01): A federal judge issued an injunction on March 26, 2026 ordering the Trump administration to rescind its designation of Anthropic as a &quot;Supply-Chain Risk to Nati
+- [Pentagon Labels Anthropic a &quot;Supply-Chain Risk&quot; After Company Refuses Military Surveillance Contract](https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon.html) (2026-03-27): The relationship between artificial intelligence companies and the U.S. Department of Defense reached a breaking point in early 2026. The Pentagon formally desi
+- [#QuitGPT Movement Surges Past 2.5 Million Supporters as OpenAI Pentagon Deal Triggers Mass Uninstalls](https://airevolution.sbnmediastudio.com/articles/quitgpt.html) (2026-03-24): OpenAI's decision to partner with the Pentagon on defense applications ignited an unprecedented consumer backlash under the #QuitGPT banner. The grassroots move
+
+## Geopolitics
+
+- [OpenAI, Anthropic, and Google Form Joint Front Against Chinese AI Model Distillation](https://airevolution.sbnmediastudio.com/articles/openai-anthropic-google-unite-against-china-ai-model-distillation-april-2026.html) (2026-04-05): OpenAI, Anthropic, and Google announced on April 6, 2026 — reported by Bloomberg — that they are sharing intelligence through the Frontier Model Forum to detect
+
+## Google
+
+- [Google DeepMind Launches Gemma 4 Under Apache 2.0 License, Removing Key Enterprise Barrier](https://airevolution.sbnmediastudio.com/articles/google-gemma-4-apache-license-2026.html) (2026-04-01): Google DeepMind released Gemma 4 on April 2, 2026 under the Apache 2.0 license — a first for the Gemma model family. Prior Gemma releases were governed by Googl
+- [Google Gemini Launches Import Tool for ChatGPT and Claude Chat History in AI Portability Race](https://airevolution.sbnmediastudio.com/articles/google-gemini-import-chatgpt-claude-history.html) (2026-03-25): Google launched two new Gemini features on March 26, 2026 — 'Import Memory' and 'Import Chat History' — that allow users to migrate their entire context from Ch
+
+## Investment
+
+- [OpenAI Commits $20B+ to Cerebras Chips Over Three Years, Receives Equity Stake Up to 10%](https://airevolution.sbnmediastudio.com/articles/openai-cerebras-20-billion-deal-equity-stake-april-2026.html) (2026-04-16): OpenAI has agreed to spend more than $20 billion over three years on servers powered by Cerebras chips — more than double the $10 billion deal the two companies
+
+## Meta
+
+- [Meta Releases Llama 4 with Scout and Maverick Models, Natively Multimodal and 10M Token Context](https://airevolution.sbnmediastudio.com/articles/meta-llama-4-launch-april-2026.html) (2026-04-04): Meta launched Llama 4 Scout and Llama 4 Maverick on April 5, 2026, framing the release as a direct response to competitive pressure from Chinese open-source mod
+
+## Microsoft
+
+- [Microsoft Revamps Copilot With Anthropic's Claude — New Multi-Model 'Critique' Feature Launches in Wave 3](https://airevolution.sbnmediastudio.com/articles/microsoft-copilot-revamp-anthropic-2026.html) (2026-03-30): Microsoft unveiled a significant overhaul of Microsoft 365 Copilot on March 31, 2026, anchored by a new &quot;Critique&quot; feature that runs two frontier AI models in s
+
+## Models
+
+- [Anthropic Launches Claude Opus 4.7 with High-Resolution Vision, Task Budgets, and Faster Agentic Performance](https://airevolution.sbnmediastudio.com/articles/anthropic-claude-opus-47-launch-april-2026.html) (2026-04-15): Anthropic launched Claude Opus 4.7 on April 16, 2026, releasing its most capable generally available model to date. The model introduces several new capabilitie
+- [Meta Launches Muse Spark, Its First Closed Proprietary AI Model, Abandoning Open-Source Llama Strategy](https://airevolution.sbnmediastudio.com/articles/meta-muse-spark-proprietary-model-open-source-shift-april-2026.html) (2026-04-07): On April 8, 2026, Meta debuted Muse Spark — the first model from its new Meta Superintelligence Labs, headed by chief AI officer Alexandr Wang. The model is clo
+- [GPT-5.4, Gemini 3.1 Pro, and Claude Opus 4.6 Reshape the Frontier Model Landscape in Q1 2026](https://airevolution.sbnmediastudio.com/articles/frontier-models.html) (2026-03-21): The first quarter of 2026 delivered a rapid-fire sequence of frontier model releases that redefined the competitive landscape of generative AI. Google's Gemini
+- [OpenAI Launches GPT-5.4 With 1 Million Token Context — Plus Mini and Nano Variants for Every Budget](https://airevolution.sbnmediastudio.com/articles/gpt54.html) (2026-03-17): OpenAI released GPT-5.4 in early March as its most capable frontier model, available in standard, Thinking (reasoning), and Pro (high-performance) versions. The
+- [Google Ships Gemini 3.1 Pro With Double the Reasoning Power — Plus Computer Use, Multimodal Embeddings](https://airevolution.sbnmediastudio.com/articles/gemini31.html) (2026-03-11): Google released Gemini 3.1 Pro in February 2026, delivering more than double the reasoning performance of Gemini 3 Pro with a 1-million-token context window and
+- [Claude Memory Features Roll Out to All Users as Opus 4.6 Powers Microsoft PowerPoint and Excel](https://airevolution.sbnmediastudio.com/articles/claude-memory.html) (2026-03-07): Anthropic made two significant product moves in rapid succession. First, the company rolled out persistent memory capabilities to all Claude users, allowing the
+- [Gemini 3.1 Flash-Lite Delivers 2.5x Speed at $0.25 per Million Input Tokens](https://airevolution.sbnmediastudio.com/articles/gemini-flash-lite.html) (2026-03-02): Google DeepMind released Gemini 3.1 Flash-Lite, an aggressively optimized variant designed for high-throughput, cost-sensitive applications. The model runs 2.5
+
+## Open Source
+
+- [DeepSeek Continues to Challenge Western AI Labs with Compute-Efficient Open Models](https://airevolution.sbnmediastudio.com/articles/deepseek.html) (2026-03-13): Chinese AI lab DeepSeek maintained its position as one of the most disruptive forces in the global AI landscape throughout early 2026. The company's latest open
+- [Xiaomi Releases a One-Trillion Parameter Open-Source Model, Pushing the Boundaries of Open AI Development](https://airevolution.sbnmediastudio.com/articles/xiaomi-model.html) (2026-02-24): Chinese technology giant Xiaomi surprised the global AI community by releasing a one-trillion parameter large language model under a permissive open-source lice
+
+## OpenAI
+
+- [OpenAI Closes Record $110B Funding Round Led by Amazon, SoftBank, and NVIDIA — Valued at $840B](https://airevolution.sbnmediastudio.com/articles/openai-110b-funding.html) (2026-03-24): OpenAI has completed a $110 billion funding round — one of the largest private investment rounds in corporate history — bringing its post-money valuation to $84
+- [OpenAI Pulls the Plug on Sora — $15M/Day Burn Rate and $2.1M Lifetime Revenue Sealed Its Fate](https://airevolution.sbnmediastudio.com/articles/openai-sora-shutdown.html) (2026-03-23): OpenAI quietly shut down Sora, its AI video generation product, on March 24, citing compute reallocation and a strategic pivot toward world simulation for robot
+
+## Policy
+
+- [Google CEO Sundar Pichai: America Must Lead AI Development 'Boldly and Responsibly'](https://airevolution.sbnmediastudio.com/articles/sundar-pichai-us-ai-leadership-60-minutes-april-2026.html) (2026-04-11): Google CEO Sundar Pichai called artificial intelligence &quot;the most profound technology yet&quot; and urged the United States to lead its development in a CBS 60 Minut
+
+## Regulation
+
+- [EU AI Act Enforcement Begins — First Fines Up to 7% of Global Revenue Expected by Summer](https://airevolution.sbnmediastudio.com/articles/eu-ai-act-enforcement.html) (2026-03-26): The European Union's AI Act entered its first active enforcement phase in March 2026, with regulators now empowered to investigate and penalize non-compliant AI
+- [EU AI Act Enforcement Begins as Companies Scramble to Comply with the World's First Comprehensive AI Law](https://airevolution.sbnmediastudio.com/articles/eu-ai-act.html) (2026-02-07): The European Union's AI Act, the most comprehensive regulatory framework for artificial intelligence anywhere in the world, entered its enforcement phase in ear
+
+## Research
+
+- [PwC Study: Top 20% of Companies Capturing 75% of AI's Economic Gains](https://airevolution.sbnmediastudio.com/articles/pwc-ai-performance-study-top-companies-april-2026.html) (2026-04-12): Three-quarters of AI's economic gains are being captured by just 20% of companies, according to PwC's 2026 AI Performance Study released April 13. The research
+
+## Safety
+
+- [Anthropic Debuts Mythos, Its Most Capable Model Yet, Restricted to 12 Cybersecurity Partners Under Project Glasswing](https://airevolution.sbnmediastudio.com/articles/anthropic-mythos-model-cybersecurity-project-glasswing-2026.html) (2026-04-06): On April 7, 2026, Anthropic unveiled a preview of Mythos — described internally as the company's most capable model to date — but deliberately restricted access
+- [Anthropic Launches the Anthropic Institute to Study AI's Broader Societal Impacts](https://airevolution.sbnmediastudio.com/articles/anthropic-institute.html) (2026-02-11): Anthropic announced the formation of the Anthropic Institute, a dedicated research body focused on understanding how artificial intelligence reshapes labor mark
+
+## Security
+
+- [OpenAI Unveils Restricted GPT-5.4-Cyber Security Model, Taking Different Approach Than Anthropic's Mythos](https://airevolution.sbnmediastudio.com/articles/openai-gpt54-cyber-restricted-model-april-2026.html) (2026-04-14): OpenAI unveiled GPT-5.4-Cyber on April 15, 2026 — a restricted-access AI model designed specifically for offensive and defensive cybersecurity work — following
+
+## Standards
+
+- [MCP Becomes the &quot;USB-C for AI&quot; as Anthropic Donates Protocol to Linux Foundation and Rivals Embrace It](https://airevolution.sbnmediastudio.com/articles/mcp-standard.html) (2026-03-09): Anthropic's Model Context Protocol has emerged as the defining interoperability standard for the AI agent ecosystem in 2026. Originally developed to let Claude
+
+## Strategy
+
+- [OpenAI Acquires Tech Talk Show TBPN in First-Ever Media Company Purchase](https://airevolution.sbnmediastudio.com/articles/openai-acquires-tbpn-media-2026.html) (2026-04-01): OpenAI acquired TBPN (Technology Business Programming Network) on April 2, 2026 — the company's first-ever purchase of a media property and one of the most unus
+- [Google Quietly Gains Ground with Pentagon AI Agents Contract Covering 3 Million Unclassified Workers](https://airevolution.sbnmediastudio.com/articles/google-pentagon.html) (2026-02-17): While the Anthropic-Pentagon standoff and OpenAI controversy dominated headlines, Google has been steadily expanding its presence in government AI deployment. T
+
+## Feeds
+
+- RSS: https://airevolution.sbnmediastudio.com/feed.xml
+- Sitemap: https://airevolution.sbnmediastudio.com/sitemap.xml
+- llms.txt (summary): https://airevolution.sbnmediastudio.com/llms.txt
