@@ -38,7 +38,7 @@ const IMAGE_STANDARDS = {
 // site doesn't read as "all the same color"). Hard ban on violet/purple/neon —
 // those colors made every previous hero look identical.
 // ─────────────────────────────────────────────────────────────────────────────
-const NEGATIVE_PROMPT = 'NO violet, NO purple, NO magenta, NO neon glow, NO sci-fi rendering, NO 3D CGI look, NO cartoon, NO clipart, NO stock-business clichés, NO generic AI illustration, NO girl, NO child';
+const NEGATIVE_PROMPT = 'NO third-party company logos, NO trademarked brand marks, NO recognizable corporate logos (no OpenAI, Anthropic, Google, Microsoft, NVIDIA, TSMC, Samsung, Intel, AMD, Apple, Meta logo or wordmarks visible), NO violet, NO purple, NO magenta, NO neon glow, NO sci-fi rendering, NO 3D CGI look, NO cartoon, NO clipart, NO stock-business clichés, NO generic AI illustration, NO girl, NO child';
 
 const CATEGORY_STYLE_POOLS = {
   semiconductor: [
@@ -104,15 +104,17 @@ function contentCreatorAgent(articleData) {
   const style = getCategoryStyle(category, title);
   const dims = IMAGE_STANDARDS[imageType || 'list'];
 
-  let companyPrompt = '';
-  if (companies && companies.length > 0) {
-    companyPrompt = ` Subtly include visible branding context for: ${companies.join(', ')}.`;
-  }
+  // IMPORTANT: do NOT inject company/brand names into the prompt. Nano Banana
+  // will faithfully render trademarked logos when names are mentioned, which
+  // creates a copyright/trademark exposure on a publication that covers those
+  // companies. We keep `companies` only for slug/alt-text downstream, never
+  // for the image prompt itself.
+  const companyPrompt = '';
 
   const fullPrompt = [
     style.aiPrompt,
     `Article topic: ${topics.join(', ')}.`,
-    `Headline: "${title}".${companyPrompt}`,
+    `Editorial scene related to: ${title}.${companyPrompt}`,
     `Avoid: ${(style.avoidKeywords || []).join(', ')}.`,
     NEGATIVE_PROMPT
   ].join(' ');

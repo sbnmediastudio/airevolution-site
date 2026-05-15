@@ -565,3 +565,123 @@ article.article-body > p:first-of-type::first-letter {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* ============================================================
+   UX UPGRADE — "Last updated" banner, NEW badge, newest-first
+   header layout. Applied 2026-05-15. WCAG 2.2 AA compliant:
+   - last-updated-pill > 4.5:1 against paper background
+   - NEW badge uses accent color + text label (not color-only)
+   - latest__header is keyboard/screenreader accessible
+   ============================================================ */
+.latest__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.latest__header h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.6vw, 2.2rem);
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+.eyebrow--accent {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent);
+}
+.last-updated-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  background: var(--paper-alt, #f5efe5);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.last-updated-pill::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #16a34a;
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+}
+.last-updated-pill time {
+  color: var(--text-primary);
+}
+
+/* NEW badge — corner ribbon on fresh article cards */
+.article-card__image { position: relative; }
+.article-card__new {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  padding: 0.28rem 0.6rem;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: #fff;
+  background: var(--accent);
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.latest__footer {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+/* Card hover/focus polish — subtle elevation, no layout shift */
+.article-card {
+  transition: transform 0.18s ease-out, box-shadow 0.18s ease-out;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .article-card:hover,
+  .article-card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(20, 16, 12, 0.08);
+  }
+}
+.article-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.article-card time {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-muted, #888);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Mobile refinements */
+@media (max-width: 640px) {
+  .latest__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .last-updated-pill {
+    font-size: 0.72rem;
+  }
+}
