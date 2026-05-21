@@ -5,8 +5,32 @@
     <link>https://airevolution.sbnmediastudio.com/</link>
     <description>Weekly intelligence on frontier AI models, agents, infrastructure, regulation, and enterprise adoption.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 08:28:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 10:04:27 GMT</lastBuildDate>
     <atom:link href="https://airevolution.sbnmediastudio.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>KPMG Deploys Claude to 276,000 Employees in Global Anthropic Alliance</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-kpmg-claude-276k-workforce-may-2026.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-kpmg-claude-276k-workforce-may-2026.html</guid>
+      <pubDate>Tue, 19 May 2026 08:00:00 GMT</pubDate>
+      <description>KPMG and Anthropic on May 19, 2026 signed a global alliance giving Claude to KPMG&apos;s 276,000-person workforce and launching the KPMG Digital Gateway Powered by Claude for tax clients and private equity portfolio companies.</description>
+      <category>agents</category>
+    </item>
+    <item>
+      <title>Google I/O 2026: Gemini 3.5 Flash and Spark Agent Land in Gemini App</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/google-io-gemini-35-flash-spark-may-2026.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/google-io-gemini-35-flash-spark-may-2026.html</guid>
+      <pubDate>Tue, 19 May 2026 08:00:00 GMT</pubDate>
+      <description>Google at I/O 2026 on May 19 unveiled Gemini 3.5 Flash, a personal agent called Gemini Spark, and a new multimodal series called Gemini Omni. 3.5 Flash is now the default model in the Gemini app and AI Mode in Search.</description>
+      <category>models</category>
+    </item>
+    <item>
+      <title>OpenAI Launches ChatGPT Personal Finance with Plaid Bank Connections</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/openai-chatgpt-personal-finance-plaid-may-2026.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-chatgpt-personal-finance-plaid-may-2026.html</guid>
+      <pubDate>Fri, 15 May 2026 08:00:00 GMT</pubDate>
+      <description>OpenAI on May 15, 2026 launched a personal finance preview inside ChatGPT for Pro subscribers in the US. Using Plaid, ChatGPT connects to more than 12,000 financial institutions and surfaces portfolio, spending, and subscription dashboards.</description>
+      <category>agents</category>
+    </item>
     <item>
       <title>Anthropic and SpaceX Sign Compute Deal for 300MW Colossus 1 Capacity</title>
       <link>https://airevolution.sbnmediastudio.com/articles/anthropic-spacex-colossus-compute-deal-may-2026.html</link>
@@ -222,30 +246,6 @@
       <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
       <description>OpenAI closed the largest private funding round in history on March 31, 2026, raising $122 billion and setting a valuation of $852 billion — a figure that makes</description>
       <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Claude Wins 70% of Enterprise Head-to-Head Matchups Against OpenAI in 2026</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-enterprise-market-share-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-enterprise-market-share-2026.html</guid>
-      <pubDate>Fri, 27 Mar 2026 08:00:00 GMT</pubDate>
-      <description>The Ramp March 2026 AI Index — which tracks real corporate credit card spending across more than 50,000 businesses — reveals a striking shift in enterprise AI a</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Pentagon Labels Anthropic a &amp;quot;Supply-Chain Risk&amp;quot; After Company Refuses Military Surveillance Contract</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon.html</guid>
-      <pubDate>Fri, 27 Mar 2026 08:00:00 GMT</pubDate>
-      <description>The relationship between artificial intelligence companies and the U.S. Department of Defense reached a breaking point in early 2026. The Pentagon formally desi</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>EU AI Act Enforcement Begins — First Fines Up to 7% of Global Revenue Expected by Summer</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/eu-ai-act-enforcement.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/eu-ai-act-enforcement.html</guid>
-      <pubDate>Thu, 26 Mar 2026 08:00:00 GMT</pubDate>
-      <description>The European Union&apos;s AI Act entered its first active enforcement phase in March 2026, with regulators now empowered to investigate and penalize non-compliant AI</description>
-      <category>regulation</category>
     </item>
   </channel>
 </rss>
