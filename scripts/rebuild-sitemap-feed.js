@@ -11,7 +11,9 @@ const { readArticles } = require('./rebuild-indexes.js');
 const ROOT = path.resolve(__dirname, '..');
 const SITE = 'https://airevolution.sbnmediastudio.com';
 const SITEMAP = path.join(ROOT, 'sitemap.xml');
-const FEED = path.join(ROOT, 'feed.xml');
+// IMPORTANT: feed.xml is the PODCAST RSS feed that Spotify/Apple Podcasts
+// subscribe to — do NOT overwrite it. The article RSS goes to articles.xml.
+const FEED = path.join(ROOT, 'articles.xml');
 
 function buildSitemap(articles) {
   const today = new Date().toISOString().slice(0, 10);

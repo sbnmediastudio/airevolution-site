@@ -1,251 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI Revolution — Frontier AI Models, Agents &amp; Infrastructure News</title>
-    <link>https://airevolution.sbnmediastudio.com/</link>
-    <description>Weekly intelligence on frontier AI models, agents, infrastructure, regulation, and enterprise adoption.</description>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 00:37:45 GMT</lastBuildDate>
     <atom:link href="https://airevolution.sbnmediastudio.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <title>AI Revolution</title>
+    <link>https://airevolution.sbnmediastudio.com/</link>
+    <description>Weekly AI intelligence: frontier models, agents, infrastructure, regulation, and enterprise adoption. By SBN Media Studio.</description>
+    <language>en-us</language>
+    <copyright>© 2026 SBN Media Studio</copyright>
+    <managingEditor>sbn.mediastudio@gmail.com (SBN Media Studio)</managingEditor>
+    <webMaster>sbn.mediastudio@gmail.com (SBN Media Studio)</webMaster>
+    <lastBuildDate>Sun, 26 Apr 2026 12:00:00 +0000</lastBuildDate>
+
+    <!-- iTunes / Spotify required tags -->
+    <itunes:author>SBN Media Studio</itunes:author>
+    <itunes:summary>Weekly AI intelligence: frontier models (GPT, Claude, Gemini), AI agents, MCP protocol, AI infrastructure, regulation, and enterprise adoption. By SBN Media Studio.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>SBN Media Studio</itunes:name>
+      <itunes:email>sbn.mediastudio@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Technology"/>
+    <itunes:category text="News">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:image href="https://airevolution.sbnmediastudio.com/img/podcast-logo.png"/>
+    <itunes:type>episodic</itunes:type>
+
+    <!-- Episodes will be inserted here by the automation pipeline -->
     <item>
-      <title>Anthropic and SpaceX Sign Compute Deal for 300MW Colossus 1 Capacity</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-spacex-colossus-compute-deal-may-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-spacex-colossus-compute-deal-may-2026.html</guid>
-      <pubDate>Wed, 06 May 2026 08:00:00 GMT</pubDate>
-      <description>On May 6, 2026, Anthropic agreed to take all compute capacity at SpaceX&apos;s Colossus 1 data center in Memphis — more than 300 megawatts and over 220,000 NVIDIA GPUs — and immediately raised Claude API and Claude Code usage limits.</description>
-      <category>models</category>
+      <title>This Week in Claude Code Skills — 8 New Community Releases (Week 17)</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/community-skills-week-17-2026-04-27.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/community-skills-week-17-2026-04-27.html</guid>
+      <pubDate>Sun, 26 Apr 2026 22:28:58 +0000</pubDate>
+      <description>The most-trending Claude Code skills released or updated this week, ranked by community signal. dify leads.</description>
+      <category>Agents</category>
     </item>
-    <item>
-      <title>OpenAI Releases GPT-5.5 Instant as New Default ChatGPT Model</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-gpt55-instant-default-chatgpt-may-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-gpt55-instant-default-chatgpt-may-2026.html</guid>
-      <pubDate>Tue, 05 May 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI on May 5, 2026 began rolling out GPT-5.5 Instant as the new default ChatGPT model. It replaces GPT-5.3 Instant, cuts hallucination on legal, medical, and financial queries, and keeps the low-latency profile of the Instant tier.</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Microsoft Agent 365 Hits General Availability with Cross-Cloud Registry and Local Agent Controls</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/microsoft-agent-365-general-availability-may-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/microsoft-agent-365-general-availability-may-2026.html</guid>
-      <pubDate>Fri, 01 May 2026 08:00:00 GMT</pubDate>
-      <description>On May 1, 2026, Microsoft made Agent 365 generally available at $15 per user per month with a unified observe-govern-secure control plane, cross-cloud registry sync with AWS Bedrock and Google Cloud, and Defender/Intune local agent management on Windows endpoints.</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Opens Claude Security to Enterprises in Public Beta for Vulnerability Scanning</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-security-public-beta-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-security-public-beta-april-2026.html</guid>
-      <pubDate>Thu, 30 Apr 2026 08:00:00 GMT</pubDate>
-      <description>On April 30, 2026, Anthropic released Claude Security as a global public beta for Claude Enterprise customers, adding scheduled scans, validated findings, and CSV/Markdown exports built on Opus 4.7.</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Salesforce Launches Agentforce Operations to Automate Back-Office Bottlenecks</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/salesforce-agentforce-operations-back-office-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/salesforce-agentforce-operations-back-office-april-2026.html</guid>
-      <pubDate>Wed, 29 Apr 2026 08:00:00 GMT</pubDate>
-      <description>On April 29, 2026, Salesforce announced the general availability of Agentforce Operations — AI agents that complete back-office work end-to-end with 30+ pre-built blueprints and Instant Blueprints document parsing.</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI Models and Codex Land on AWS Bedrock as Microsoft Exclusivity Ends</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-aws-bedrock-microsoft-exclusivity-ends-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-aws-bedrock-microsoft-exclusivity-ends-april-2026.html</guid>
-      <pubDate>Tue, 28 Apr 2026 08:00:00 GMT</pubDate>
-      <description>On April 27 and 28, 2026, OpenAI ended Microsoft Azure exclusivity and made its models, Codex coding agent, and Bedrock Managed Agents available on AWS — the largest distribution shift in OpenAI&apos;s history.</description>
-      <category>infrastructure</category>
-    </item>
-    <item>
-      <title>Anthropic Tests Pulling Claude Code From $20 Pro Plan — Infrastructure Costs Signal Pricing Shift Ahead</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-pro-plan-pricing-controversy-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-pro-plan-pricing-controversy-april-2026.html</guid>
-      <pubDate>Tue, 21 Apr 2026 08:00:00 GMT</pubDate>
-      <description>On April 21, 2026, Anthropic quietly updated its pricing pages and support documentation to remove Claude Code access from its $20/month Pro plan, listing Claud</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Google Cloud Next 2026: Vertex AI Reborn as Gemini Enterprise Agent Platform With A2A Protocol and 200+ Models</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/google-cloud-next-2026-gemini-enterprise-agent-platform-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/google-cloud-next-2026-gemini-enterprise-agent-platform-april-2026.html</guid>
-      <pubDate>Tue, 21 Apr 2026 08:00:00 GMT</pubDate>
-      <description>At Google Cloud Next 2026 on April 22, 2026, Google unveiled a sweeping reorganization of its enterprise AI portfolio under a single new brand: the Gemini Enter</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Pentagon Moves Toward Google Gemini After Six-Month Anthropic Phase-Out Over Military AI Policy</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/google-gemini-pentagon-classified-anthropic-phase-out-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/google-gemini-pentagon-classified-anthropic-phase-out-april-2026.html</guid>
-      <pubDate>Sun, 19 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Google is in active negotiations with the Pentagon to deploy its Gemini AI models inside classified Department of Defense systems, following the US military&apos;s d</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI Commits $20B+ to Cerebras Chips Over Three Years, Receives Equity Stake Up to 10%</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-cerebras-20-billion-deal-equity-stake-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-cerebras-20-billion-deal-equity-stake-april-2026.html</guid>
-      <pubDate>Thu, 16 Apr 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI has agreed to spend more than $20 billion over three years on servers powered by Cerebras chips — more than double the $10 billion deal the two companies</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Launches Claude Opus 4.7 with High-Resolution Vision, Task Budgets, and Faster Agentic Performance</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-opus-47-launch-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-opus-47-launch-april-2026.html</guid>
-      <pubDate>Wed, 15 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Anthropic launched Claude Opus 4.7 on April 16, 2026, releasing its most capable generally available model to date. The model introduces several new capabilitie</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI Unveils Restricted GPT-5.4-Cyber Security Model, Taking Different Approach Than Anthropic&apos;s Mythos</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-gpt54-cyber-restricted-model-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-gpt54-cyber-restricted-model-april-2026.html</guid>
-      <pubDate>Tue, 14 Apr 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI unveiled GPT-5.4-Cyber on April 15, 2026 — a restricted-access AI model designed specifically for offensive and defensive cybersecurity work — following</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>PwC Study: Top 20% of Companies Capturing 75% of AI&apos;s Economic Gains</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/pwc-ai-performance-study-top-companies-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/pwc-ai-performance-study-top-companies-april-2026.html</guid>
-      <pubDate>Sun, 12 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Three-quarters of AI&apos;s economic gains are being captured by just 20% of companies, according to PwC&apos;s 2026 AI Performance Study released April 13. The research</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Google CEO Sundar Pichai: America Must Lead AI Development &apos;Boldly and Responsibly&apos;</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/sundar-pichai-us-ai-leadership-60-minutes-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/sundar-pichai-us-ai-leadership-60-minutes-april-2026.html</guid>
-      <pubDate>Sat, 11 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Google CEO Sundar Pichai called artificial intelligence &amp;quot;the most profound technology yet&amp;quot; and urged the United States to lead its development in a CBS 60 Minut</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Musk vs. OpenAI Trial: Jury Selection Set for April 27 as CEO Ouster Bid Escalates</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/musk-openai-trial-ceo-ouster-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/musk-openai-trial-ceo-ouster-april-2026.html</guid>
-      <pubDate>Fri, 10 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Elon Musk escalated his long-running lawsuit against OpenAI during the week of April 7-11, 2026, seeking not only damages but the explicit ouster of CEO Sam Alt</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Hits $30 Billion Revenue Run Rate, Signs CoreWeave Infrastructure Deal</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-coreweave-deal-30b-revenue-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-coreweave-deal-30b-revenue-april-2026.html</guid>
-      <pubDate>Thu, 09 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Anthropic disclosed on April 10, 2026 that its annual revenue run rate has surpassed $30 billion — a staggering leap from the $9 billion run rate the company re</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Meta Launches Muse Spark, Its First Closed Proprietary AI Model, Abandoning Open-Source Llama Strategy</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/meta-muse-spark-proprietary-model-open-source-shift-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/meta-muse-spark-proprietary-model-open-source-shift-april-2026.html</guid>
-      <pubDate>Tue, 07 Apr 2026 08:00:00 GMT</pubDate>
-      <description>On April 8, 2026, Meta debuted Muse Spark — the first model from its new Meta Superintelligence Labs, headed by chief AI officer Alexandr Wang. The model is clo</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI IPO Targets Retail Investors as $852 Billion Valuation Reshapes AI Finance</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-ipo-retail-investors-852b-valuation-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-ipo-retail-investors-852b-valuation-april-2026.html</guid>
-      <pubDate>Tue, 07 Apr 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI CFO Sarah Friar told CNBC on April 8, 2026 that the company intends to allocate IPO shares to retail investors as it prepares for a public market debut,</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Debuts Mythos, Its Most Capable Model Yet, Restricted to 12 Cybersecurity Partners Under Project Glasswing</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-mythos-model-cybersecurity-project-glasswing-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-mythos-model-cybersecurity-project-glasswing-2026.html</guid>
-      <pubDate>Mon, 06 Apr 2026 08:00:00 GMT</pubDate>
-      <description>On April 7, 2026, Anthropic unveiled a preview of Mythos — described internally as the company&apos;s most capable model to date — but deliberately restricted access</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI, Anthropic, and Google Form Joint Front Against Chinese AI Model Distillation</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-anthropic-google-unite-against-china-ai-model-distillation-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-anthropic-google-unite-against-china-ai-model-distillation-april-2026.html</guid>
-      <pubDate>Sun, 05 Apr 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI, Anthropic, and Google announced on April 6, 2026 — reported by Bloomberg — that they are sharing intelligence through the Frontier Model Forum to detect</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Meta Releases Llama 4 with Scout and Maverick Models, Natively Multimodal and 10M Token Context</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/meta-llama-4-launch-april-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/meta-llama-4-launch-april-2026.html</guid>
-      <pubDate>Sat, 04 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Meta launched Llama 4 Scout and Llama 4 Maverick on April 5, 2026, framing the release as a direct response to competitive pressure from Chinese open-source mod</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Wins Court Injunction Against Pentagon&apos;s National Security Ban — DOJ Appeals</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon-injunction-doj-appeal-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon-injunction-doj-appeal-2026.html</guid>
-      <pubDate>Wed, 01 Apr 2026 08:00:00 GMT</pubDate>
-      <description>A federal judge issued an injunction on March 26, 2026 ordering the Trump administration to rescind its designation of Anthropic as a &amp;quot;Supply-Chain Risk to Nati</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Google DeepMind Launches Gemma 4 Under Apache 2.0 License, Removing Key Enterprise Barrier</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/google-gemma-4-apache-license-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/google-gemma-4-apache-license-2026.html</guid>
-      <pubDate>Wed, 01 Apr 2026 08:00:00 GMT</pubDate>
-      <description>Google DeepMind released Gemma 4 on April 2, 2026 under the Apache 2.0 license — a first for the Gemma model family. Prior Gemma releases were governed by Googl</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI Acquires Tech Talk Show TBPN in First-Ever Media Company Purchase</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-acquires-tbpn-media-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-acquires-tbpn-media-2026.html</guid>
-      <pubDate>Wed, 01 Apr 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI acquired TBPN (Technology Business Programming Network) on April 2, 2026 — the company&apos;s first-ever purchase of a media property and one of the most unus</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic&apos;s Claude Code Source Code Leaked — Company Accidentally DMCA&apos;s Thousands of GitHub Repos</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-source-leak-github-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-source-leak-github-2026.html</guid>
-      <pubDate>Tue, 31 Mar 2026 08:00:00 GMT</pubDate>
-      <description>On March 31–April 1, 2026, Anthropic accidentally exposed approximately 512,000 lines of TypeScript source code for its Claude Code command-line application aft</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Microsoft Revamps Copilot With Anthropic&apos;s Claude — New Multi-Model &apos;Critique&apos; Feature Launches in Wave 3</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/microsoft-copilot-revamp-anthropic-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/microsoft-copilot-revamp-anthropic-2026.html</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
-      <description>Microsoft unveiled a significant overhaul of Microsoft 365 Copilot on March 31, 2026, anchored by a new &amp;quot;Critique&amp;quot; feature that runs two frontier AI models in s</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI Closes Record $122 Billion Funding Round, Valued at $852 Billion</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-122b-funding-852b-valuation-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-122b-funding-852b-valuation-2026.html</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI closed the largest private funding round in history on March 31, 2026, raising $122 billion and setting a valuation of $852 billion — a figure that makes</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic Claude Wins 70% of Enterprise Head-to-Head Matchups Against OpenAI in 2026</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-enterprise-market-share-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-enterprise-market-share-2026.html</guid>
-      <pubDate>Fri, 27 Mar 2026 08:00:00 GMT</pubDate>
-      <description>The Ramp March 2026 AI Index — which tracks real corporate credit card spending across more than 50,000 businesses — reveals a striking shift in enterprise AI a</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Pentagon Labels Anthropic a &amp;quot;Supply-Chain Risk&amp;quot; After Company Refuses Military Surveillance Contract</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-pentagon.html</guid>
-      <pubDate>Fri, 27 Mar 2026 08:00:00 GMT</pubDate>
-      <description>The relationship between artificial intelligence companies and the U.S. Department of Defense reached a breaking point in early 2026. The Pentagon formally desi</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>EU AI Act Enforcement Begins — First Fines Up to 7% of Global Revenue Expected by Summer</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/eu-ai-act-enforcement.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/eu-ai-act-enforcement.html</guid>
-      <pubDate>Thu, 26 Mar 2026 08:00:00 GMT</pubDate>
-      <description>The European Union&apos;s AI Act entered its first active enforcement phase in March 2026, with regulators now empowered to investigate and penalize non-compliant AI</description>
-      <category>regulation</category>
-    </item>
+
+
   </channel>
 </rss>
