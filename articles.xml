@@ -5,8 +5,32 @@
     <link>https://airevolution.sbnmediastudio.com/</link>
     <description>Weekly intelligence on frontier AI models, agents, infrastructure, regulation, and enterprise adoption.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 10:04:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 06:21:09 GMT</lastBuildDate>
     <atom:link href="https://airevolution.sbnmediastudio.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic Hits $965B, Greenlights Mythos Wide Release</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-65b-raise-965b-valuation-mythos-rollout-june-1-2026.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-65b-raise-965b-valuation-mythos-rollout-june-1-2026.html</guid>
+      <pubDate>Mon, 01 Jun 2026 08:00:00 GMT</pubDate>
+      <description>Anthropic closes a $65B round at a $965B valuation on May 29, 2026, eclipsing OpenAI&apos;s $852B, and greenlights Mythos-class models for wide release in coming weeks.</description>
+      <category>infrastructure</category>
+    </item>
+    <item>
+      <title>Claude Opus 4.8 Adds Dynamic Workflows + Fast Mode</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-opus-48-dynamic-workflows-fast-mode-june-1-2026.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-opus-48-dynamic-workflows-fast-mode-june-1-2026.html</guid>
+      <pubDate>Mon, 01 Jun 2026 08:00:00 GMT</pubDate>
+      <description>Anthropic ships Claude Opus 4.8 just 41 days after 4.7 with Dynamic Workflows for parallel subagents and a Fast Mode delivering up to 2.5x output tokens per second.</description>
+      <category>models</category>
+    </item>
+    <item>
+      <title>ServiceNow Bets on AI Control Tower for Agent Sprawl</title>
+      <link>https://airevolution.sbnmediastudio.com/articles/servicenow-ai-control-tower-knowledge-2026-june-1-2026.html</link>
+      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/servicenow-ai-control-tower-knowledge-2026-june-1-2026.html</guid>
+      <pubDate>Mon, 01 Jun 2026 08:00:00 GMT</pubDate>
+      <description>At Knowledge 2026, ServiceNow expanded AI Control Tower with 30 new integrations across AWS, Azure, Google, SAP, Oracle, and Workday — pitching it as the agent governance plane.</description>
+      <category>agents</category>
+    </item>
     <item>
       <title>KPMG Deploys Claude to 276,000 Employees in Global Anthropic Alliance</title>
       <link>https://airevolution.sbnmediastudio.com/articles/anthropic-kpmg-claude-276k-workforce-may-2026.html</link>
@@ -221,30 +245,6 @@
       <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-acquires-tbpn-media-2026.html</guid>
       <pubDate>Wed, 01 Apr 2026 08:00:00 GMT</pubDate>
       <description>OpenAI acquired TBPN (Technology Business Programming Network) on April 2, 2026 — the company&apos;s first-ever purchase of a media property and one of the most unus</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Anthropic&apos;s Claude Code Source Code Leaked — Company Accidentally DMCA&apos;s Thousands of GitHub Repos</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-source-leak-github-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/anthropic-claude-code-source-leak-github-2026.html</guid>
-      <pubDate>Tue, 31 Mar 2026 08:00:00 GMT</pubDate>
-      <description>On March 31–April 1, 2026, Anthropic accidentally exposed approximately 512,000 lines of TypeScript source code for its Claude Code command-line application aft</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>Microsoft Revamps Copilot With Anthropic&apos;s Claude — New Multi-Model &apos;Critique&apos; Feature Launches in Wave 3</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/microsoft-copilot-revamp-anthropic-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/microsoft-copilot-revamp-anthropic-2026.html</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
-      <description>Microsoft unveiled a significant overhaul of Microsoft 365 Copilot on March 31, 2026, anchored by a new &amp;quot;Critique&amp;quot; feature that runs two frontier AI models in s</description>
-      <category>models</category>
-    </item>
-    <item>
-      <title>OpenAI Closes Record $122 Billion Funding Round, Valued at $852 Billion</title>
-      <link>https://airevolution.sbnmediastudio.com/articles/openai-122b-funding-852b-valuation-2026.html</link>
-      <guid isPermaLink="true">https://airevolution.sbnmediastudio.com/articles/openai-122b-funding-852b-valuation-2026.html</guid>
-      <pubDate>Mon, 30 Mar 2026 08:00:00 GMT</pubDate>
-      <description>OpenAI closed the largest private funding round in history on March 31, 2026, raising $122 billion and setting a valuation of $852 billion — a figure that makes</description>
       <category>models</category>
     </item>
   </channel>
